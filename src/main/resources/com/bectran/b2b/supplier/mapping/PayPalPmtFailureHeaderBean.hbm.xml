@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.PayPalPmtFailureHeaderBean" table="s_paypal_failure_hd">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="supplierId" type="long" column="supplierId" />	
+		<property name="profileId" type="string" column="profileId" />	
+		<property name="transactionType" type="string" column="transactionType" />
+		<property name="failureDate" type="timestamp" column="failureDate" />
+		<property name="reprocessStatus" type="string" column="reprocessStatus" />
+		
+		<property name="messageId" type="string" column="messageId" />	
+
+         <set name="nameValueSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                <column name="headerId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.supplier.beans.PayPalPmtFailureDetailBean"/>
+        </set>  	
+
+  	
+	</class>
+
+</hibernate-mapping>
+

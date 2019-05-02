@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.supplier.beans.GroupCustomAppAttrGrpBean"
+        table="c_custom_app_attr_group">
+        <id name="id" type="long" column="id">
+            <generator class="native" />
+        </id>
+        <property name="groupID" type="long" column="groupID" />
+        <property name="attributeGroupID" type="long"
+            column="attributeGroupID" />
+        <property name="formType" type="string" column="formType" />
+        <property name="editable" type="string" column="editable" />
+        <property name="viewable" type="string" column="viewable" />
+        <property name="status" type="string" column="status" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+    </class>
+</hibernate-mapping>

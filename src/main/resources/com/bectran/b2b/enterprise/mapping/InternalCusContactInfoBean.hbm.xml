@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.InternalCusContactInfoBean" table="zs_acct_cus_contact">
+      	<id name="id" type="string" column="id">
+			<generator class="assigned" />
+		</id>  
+	<property name="supplierId" type="long" column="supplierId" />			
+	<property name="accountNum" type="string" column="accountNum" />
+	<property name="email" type="string" column="email" />	
+	<property name="firstName" type="string" column="firstName" />
+	<property name="lastName" type="string" column="lastName" />
+ 	<property name="phone" type="string" column="phone" />
+ 
+ 	<property name="accountId" type="string" column="accountId" /> 	
+	
+    </class>
+
+</hibernate-mapping>

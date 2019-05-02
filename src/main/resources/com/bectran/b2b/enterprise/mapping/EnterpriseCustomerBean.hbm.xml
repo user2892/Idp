@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.EnterpriseCustomerBean" table="zs_customer_ent">
+      	<id name="internalAcctId" type="string" column="internalAcctId">
+			<generator class="assigned" />
+		</id>  
+	<property name="supplierId" type="long" column="supplierId" />			
+	<property name="bectranAcctNum" type="string" column="bectranAcctNum" />
+	<property name="internalAcctNum" type="string" column="internalAcctNum" />	
+	
+    </class>
+
+</hibernate-mapping>

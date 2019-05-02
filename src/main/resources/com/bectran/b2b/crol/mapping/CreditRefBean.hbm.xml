@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.crol.beans.CreditRefBean" table="creditref">
+        <id name="id" type="long" column="id">
+            <generator class="native" />
+        </id>
+        <property name="requestID" type="long" column="request_id" />
+        <property name="stateOfAccount" type="string" column="state_ofaccount" />
+        <property name="creditTrend" type="string" column="credit_trend" />
+        <property name="creditTrendByAmt" type="string" column="trendbyamt" />
+        <property name="lowCreditAmt" type="double" column="low_creditamt" />
+        <property name="highCreditAmt" type="double" column="high_creditamt" />
+        <property name="currentExposure" type="double"
+            column="current_exposure" />
+        <property name="amtPastDue" type="double" column="amtpastdue" />
+        <property name="dateOfResponse" type="timestamp"
+            column="date_of_response" />
+        <property name="payTermCode" type="string" column="paytermcode" />
+        <property name="payPerformanceCode" type="string"
+            column="pay_performancecode" />
+        <property name="refComment" type="string" column="ref_comment" />
+        <property name="refereeSigned" type="string" column="referee_signed" />
+        <property name="refereeCorpId" type="string" column="referee_corp_id" />
+        <property name="emailSentStatus" type="string" column="email_status" />
+        <property name="emailSentTrial" column="email_trial" />
+        <property name="acctAgeCodeChkg" type="string" column="acctage_chkg" />
+        <property name="acctAgeCodeLoan" type="string" column="acctage_loan" />
+        <property name="avgBalChkg" type="double" column="avgbal_chkg" />
+        <property name="returnedItem" type="string" column="returneditem" />
+        <property name="satisfactoryChkg" type="string"
+            column="satisfactory_chkg" />
+        <property name="highCreditLoan" type="double" column="highcredit_loan" />
+        <property name="highBalanceLoan" type="double"
+            column="highbalance_loan" />
+        <property name="loanSecuredCode" type="string"
+            column="loansecured_code" />
+        <property name="securityDescription" type="string"
+            column="security_description" />
+        <property name="currency" type="string" column="currency_code" />
+        <property name="hasChecking" type="string" column="has_checking" />
+        <property name="hasLoan" type="string" column="has_loan" />
+        <property name="numberOfChkgAcctCode" type="string"
+            column="number_chkg_acct" />
+        <property name="numberOfLoanAcctCode" type="string"
+            column="number_loan_acct" />
+        <property name="stateOfAcctLoan" type="string" column="state_loan" />
+        <property name="stateOfAcctChkg" type="string" column="state_chkg" />
+        <property name="acctAgeCodeTrade" type="string" column="acctage_trade" />
+        <property name="customerId" type="string" column="customer_corp_id" />
+        <property name="referenceType" type="string" column="reference_type" />
+        <property name="sizeCategory" type="string" column="size_category" />
+        <property name="crolScore" type="double" column="crol_score" />
+        <property name="creditAppId" type="long" column="creditAppId" />
+        <property name="refUserId" type="long" column="refUserId" />
+        <one-to-one name="manualRefAuditBean"
+            class="com.bectran.b2b.supplier.beans.ManualRefAuditBean"
+            fetch="select" />
+    </class>
+</hibernate-mapping>

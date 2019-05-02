@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inbound-customer-data xmlns="http://www.bectran.com/">
+   <customer account-id="TN20161128958" transaction-id="17096">
+      <business-group-info>
+         <groupName>Watsco, Inc.</groupName>
+         <internalGroupCode>97</internalGroupCode>
+         <bectranReferenceId>97</bectranReferenceId>
+      </business-group-info>
+      <basic-info>
+         <addressLineOne>123123</addressLineOne>
+         <addressLineTwo></addressLineTwo>
+         <annualSalesRange>USD 10-20</annualSalesRange>
+         <bectranCustomerId>TN20161128958</bectranCustomerId>
+         <city>12313123</city>
+         <contactPersonFirstName>fdsaf</contactPersonFirstName>
+         <contactPersonLastName>sdfdsa</contactPersonLastName>
+         <contactPersonPhone>(234) 234-3334 x34343</contactPersonPhone>
+         <contactPersonTitle>CEO</contactPersonTitle>
+         <countryId>US</countryId>
+         <customerDbaName>sdafsdfasdf</customerDbaName>
+         <customerLegalName>fsdf</customerLegalName>
+         <dateCreatedInBectran>2016-11-29</dateCreatedInBectran>
+         <dunsNumber></dunsNumber>
+         <fax></fax>
+         <federalTaxId></federalTaxId>
+         <numOfEmployee>10-20</numOfEmployee>
+         <phone>(121) 231-2312 x31231</phone>
+         <state>CA</state>
+         <stateOfIncorporation>CA</stateOfIncorporation>
+         <styleOfBusiness>private</styleOfBusiness>
+         <typeOfBusiness>reseller</typeOfBusiness>
+         <yearEstablished>2009</yearEstablished>
+         <zipCode>123123</zipCode>
+         <contactPersonEmail>karuna.t@gmail.com</contactPersonEmail>
+      </basic-info>
+      <sales-person-info>
+         <firstName>Eric</firstName>
+         <lastName>Lee</lastName>
+         <internalCode>N/A</internalCode>
+      </sales-person-info>
+      <operations-unit-info>
+         <opsUnitName>District - Indianapolis</opsUnitName>
+         <opsUnitCode>1054</opsUnitCode>
+      </operations-unit-info>
+      <billing-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>fdsaf</firstName>
+            <lastName>sdfdsa</lastName>
+            <phone>(234) 234-3334 x34343</phone>
+            <email>karuna.t@gmail.com</email>
+            <fax></fax>
+            <addressLineOne>123123</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>12313123</city>
+            <state>CA</state>
+            <countryId>US</countryId>
+            <zipCode>123123</zipCode>
+         </entry>
+      </billing-info>
+      <shipping-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>fdsaf</firstName>
+            <lastName>sdfdsa</lastName>
+            <phone>(234) 234-3334 x34343</phone>
+            <email>karuna.t@gmail.com</email>
+            <fax></fax>
+            <addressLineOne>123123</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>12313123</city>
+            <state>CA</state>
+            <countryId>US</countryId>
+            <zipCode>123123</zipCode>
+         </entry>
+      </shipping-info>
+      <apay-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>fdsaf</firstName>
+            <lastName>sdfdsa</lastName>
+            <phone>(234) 234-3334 x34343</phone>
+            <email>karuna.t@gmail.com</email>
+            <fax></fax>
+         </entry>
+      </apay-info>
+      <page-2-info>
+         <entry>
+            <categoryCode>30</categoryCode>
+            <category>ContactAddress</category>
+            <name>test</name>
+            <value></value>
+            <valueCode>70136</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test date</name>
+            <value></value>
+            <valueCode>111#271#918#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test decimal</name>
+            <value>3.2</value>
+            <valueCode>111#271#919#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test list</name>
+            <value>972</value>
+            <valueCode>111#271#920#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test masked zip</name>
+            <value>12345</value>
+            <valueCode>111#271#922#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>list multi</name>
+            <value>973</value>
+            <valueCode>111#271#921#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test memo</name>
+            <value>hai</value>
+            <valueCode>111#271#923#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test int</name>
+            <value>5.5</value>
+            <valueCode>111#271#924#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test boo</name>
+            <value>false</value>
+            <valueCode>111#271#925#17096</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>sampplename</name>
+            <value></value>
+            <valueCode>111#271#931#17096</valueCode>
+         </entry>
+      </page-2-info>
+   </customer>
+   <customer account-id="TN20140714431" transaction-id="17600">
+      <business-group-info>
+         <groupName>Watsco, Inc.</groupName>
+         <internalGroupCode>97</internalGroupCode>
+         <bectranReferenceId>97</bectranReferenceId>
+      </business-group-info>
+      <basic-info>
+         <addressLineOne>suit 100</addressLineOne>
+         <addressLineTwo></addressLineTwo>
+         <annualSalesRange>$600,000 - $800,000</annualSalesRange>
+         <bectranCustomerId>TN20140714431</bectranCustomerId>
+         <city>Lake Mary</city>
+         <contactPersonFirstName>Shanmukeshwara</contactPersonFirstName>
+         <contactPersonLastName>Gutti</contactPersonLastName>
+         <contactPersonPhone>(224) 422-6242</contactPersonPhone>
+         <contactPersonTitle>President</contactPersonTitle>
+         <countryId>US</countryId>
+         <customerDbaName>Ludus</customerDbaName>
+         <customerLegalName>Ludus</customerLegalName>
+         <dateCreatedInBectran>2016-12-07</dateCreatedInBectran>
+         <dunsNumber></dunsNumber>
+         <fax></fax>
+         <federalTaxId></federalTaxId>
+         <numOfEmployee>10 - 20 employees</numOfEmployee>
+         <phone>(111) 111-1111 x11111</phone>
+         <state>FL</state>
+         <stateOfIncorporation>AL</stateOfIncorporation>
+         <styleOfBusiness>BEVERAGES</styleOfBusiness>
+         <typeOfBusiness>GOVERNMENT</typeOfBusiness>
+         <yearEstablished>2013</yearEstablished>
+         <zipCode>11211</zipCode>
+         <contactPersonEmail>shanmu.gutti@bectran.com</contactPersonEmail>
+      </basic-info>
+      <sales-person-info>
+         <firstName>Sculbert</firstName>
+         <lastName>John</lastName>
+         <internalCode>N/A</internalCode>
+      </sales-person-info>
+      <operations-unit-info>
+         <opsUnitName>District - Indianapolis</opsUnitName>
+         <opsUnitCode>1054</opsUnitCode>
+      </operations-unit-info>
+      <owner-officer-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmu</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <persTitle>Director</persTitle>
+         </entry>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmu1</firstName>
+            <lastName>Gutti1</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <persTitle>Director</persTitle>
+         </entry>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmu</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <persTitle>President</persTitle>
+         </entry>
+         <entry>
+            <salutation></salutation>
+            <firstName>kusuma</firstName>
+            <lastName>sai</lastName>
+            <phone>(111) 111-1111</phone>
+            <persTitle>Owner/Proprietor</persTitle>
+         </entry>
+         <entry>
+            <salutation></salutation>
+            <firstName>s</firstName>
+            <lastName>s</lastName>
+            <phone>(222) 222-2222 x22222</phone>
+            <persTitle>President</persTitle>
+         </entry>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmukeshwara Rao</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(919) 885-3008 x57</phone>
+            <persTitle>Shareholder</persTitle>
+         </entry>
+      </owner-officer-info>
+      <billing-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmukeshwara Rao</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>shanmu.gutti@bectran.com</email>
+            <fax></fax>
+            <addressLineOne>suit 100</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>Lake Mary</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode>11211</zipCode>
+         </entry>
+      </billing-info>
+      <shipping-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmukeshwara Rao</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(111)-111-1111</phone>
+            <email>shanmu.gutti@bectran.com</email>
+            <fax></fax>
+            <addressLineOne>suit 100</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>Lake Mary</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode>11211</zipCode>
+         </entry>
+      </shipping-info>
+      <apay-info>
+         <entry>
+            <salutation></salutation>
+            <firstName>Shanmukeshwara Rao</firstName>
+            <lastName>Gutti</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>shanmu.gutti@bectran.com</email>
+            <fax></fax>
+         </entry>
+      </apay-info>
+      <page-2-info>
+         <entry>
+            <categoryCode>38</categoryCode>
+            <category>FOR INTERNAL USE ONLY</category>
+            <name>test1</name>
+            <value>test</value>
+            <valueCode>72604</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Electronic Statements</name>
+            <value>Yes</value>
+            <valueCode>72602</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Would you like Invoices to be emailed?</name>
+            <value>Yes</value>
+            <valueCode>72603</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Email</name>
+            <value></value>
+            <valueCode>72605</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Test Multi List</name>
+            <value>EMAIL</value>
+            <valueCode>72606</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Website</name>
+            <value></value>
+            <valueCode>72607</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>31</categoryCode>
+            <category>Info</category>
+            <name>Test List Item</name>
+            <value>ITEM2</value>
+            <valueCode>72608</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test date</name>
+            <value></value>
+            <valueCode>111#271#918#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test decimal</name>
+            <value>3.2</value>
+            <valueCode>111#271#919#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test list</name>
+            <value>972</value>
+            <valueCode>111#271#920#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test masked zip</name>
+            <value>12345</value>
+            <valueCode>111#271#922#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>list multi</name>
+            <value>973</value>
+            <valueCode>111#271#921#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test memo</name>
+            <value>hai</value>
+            <valueCode>111#271#923#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test int</name>
+            <value>5.5</value>
+            <valueCode>111#271#924#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>test boo</name>
+            <value>false</value>
+            <valueCode>111#271#925#17600</valueCode>
+         </entry>
+         <entry>
+            <categoryCode>111</categoryCode>
+            <category>sample</category>
+            <name>sampplename</name>
+            <value></value>
+            <valueCode>111#271#931#17600</valueCode>
+         </entry>
+      </page-2-info>
+      <credit-reference-info>
+         <entry>
+            <companyName>Trust bank</companyName>
+            <addressLineOne>42</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>Lake Mary</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>Bill</firstName>
+            <lastName>Will</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>bill@will.com</email>
+            <fax>(111)-111-1111</fax>
+            <referenceType>TRADE</referenceType>
+            <internalAcctNum></internalAcctNum>
+            <accountType></accountType>
+            <status>CALLED</status>
+         </entry>
+         <entry>
+            <companyName>Addition Trade</companyName>
+            <addressLineOne>Addition Trade</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>Addition Trade</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>Addition Trade</firstName>
+            <lastName>Addition Trade</lastName>
+            <phone>(211) 111-1111 x11111</phone>
+            <email>shanmu.gutti@bectran.com</email>
+            <fax>(111)-111-1111</fax>
+            <referenceType>TRADE</referenceType>
+            <internalAcctNum></internalAcctNum>
+            <accountType></accountType>
+            <status>CALLED</status>
+         </entry>
+         <entry>
+            <companyName>New Bank</companyName>
+            <addressLineOne>New Bank</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>lake</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>New Bank</firstName>
+            <lastName>New</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>shanmu.gutti@bectran.com</email>
+            <fax>(222)-222-2222</fax>
+            <referenceType>BANK</referenceType>
+            <internalAcctNum></internalAcctNum>
+            <accountType>Checking</accountType>
+            <status>CALLED</status>
+         </entry>
+         <entry>
+            <companyName>Trust bank</companyName>
+            <addressLineOne>42</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>Lake Mary</city>
+            <state>FL</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>bill</firstName>
+            <lastName>bank</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>bill@bank.com</email>
+            <fax>(111)-111-1111</fax>
+            <referenceType>BANK</referenceType>
+            <internalAcctNum></internalAcctNum>
+            <accountType>Checking</accountType>
+            <status>CALLED</status>
+         </entry>
+         <entry>
+            <companyName>test</companyName>
+            <addressLineOne>test</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>test</city>
+            <state>AL</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>test</firstName>
+            <lastName>test</lastName>
+            <phone>(111) 111-1111 x11111</phone>
+            <email>test@test.com</email>
+            <fax>(111)-111-1111</fax>
+            <referenceType>TRADE</referenceType>
+            <internalAcctNum></internalAcctNum>
+            <accountType></accountType>
+            <status>CALLED</status>
+         </entry>
+         <entry>
+            <companyName>333</companyName>
+            <addressLineOne>3333</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <city>3</city>
+            <state>AS</state>
+            <countryId>US</countryId>
+            <zipCode></zipCode>
+            <firstName>3</firstName>
+            <lastName>3</lastName>
+            <phone>(333) 333-3333 x33333</phone>
+            <email>s@gmail.com</email>
+            <fax>(333)-333-3333</fax>
+            <referenceType>BANK</referenceType>
+            <internalAcctNum>333</internalAcctNum>
+            <accountType>Checking</accountType>
+            <status>CALLED</status>
+         </entry>
+      </credit-reference-info>
+   </customer>
+</inbound-customer-data>

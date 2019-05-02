@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.WsDataLoadTrackerBean" table="zs_ws_data_load_tracker">
+      	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>  
+		
+	<property name="supplierId" type="long" column="supplierId" />	
+	<property name="groupId" type="long" column="groupId" />	
+	<property name="txnCode" type="string" column="txnCode" />
+	<property name="confirmedStatus" type="string" column="confirmedStatus" />
+	
+	<property name="startTime" type="timestamp" column="startTime" />	
+	<property name="endTime" type="timestamp" column="endTime" />		
+	<property name="numberOfRec" type="integer" column="numberOfRec" />
+	<property name="numberOfBatch" type="integer" column="numberOfBatch" />
+	<property name="cusDataType" type="string" column="cusDataType" />
+
+	
+    </class>
+
+</hibernate-mapping>
+

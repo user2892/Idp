@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.SeatBean" table="s_seat">
+      	<id name="profileId" type="string" column="profileId">
+			<generator class="assigned" />
+		</id>  
+
+	<property name="supplierId" type="long" column="supplierId" />		
+	<property name="itemNumber" type="string" column="itemNumber" />	
+	<property name="itemName" type="string" column="itemName" />
+	<property name="transactionType" type="string" column="transactionType" />
+	
+	<property name="grossAmount" type="double" column="grossAmount" />
+	<property name="buttonId" type="string" column="buttonId" />
+	<property name="becSubId" type="long" column="becSubId" />	
+	<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+	<property name="subStatus" type="string" column="subStatus" />
+	<property name="assignedStatus" type="string" column="assignedStatus" />
+	<property name="seatType" type="string" column="seatType" />
+	
+	<property name="amountPaid" type="double" column="amountPaid" />
+	<property name="lastPaymentDate" type="timestamp" column="lastPaymentDate" />
+	
+		
+    </class>
+
+</hibernate-mapping>

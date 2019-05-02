@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.idp.beans.IDPAttribute"
+        table="zsi_ent_intg_idp_attr">
+        <id name="id" type="long" column="id">
+            <generator class="native" />
+        </id>
+        <property name="headerId" type="long" column="headerId" />
+        <property name="code" type="string" column="code" />
+        <property name="description" type="string" column="description" />
+        <property name="categoryCode" type="string" column="categoryCode" />
+        <property name="nodeName" type="string" column="nodeName" />
+        
+    </class>
+</hibernate-mapping>

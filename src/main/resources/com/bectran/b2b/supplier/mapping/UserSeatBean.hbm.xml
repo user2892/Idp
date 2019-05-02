@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.UserSeatBean" table="s_user_seat">
+  		
+    	<id name="userId" type="string" column="userId">
+			<generator class="assigned" />
+		</id>  
+
+		<property name="seatId" type="string" column="seatId" />		
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+			
+	    <many-to-one name="mySeat" class="com.bectran.b2b.supplier.beans.SeatBean" update="false"
+      		 insert="false" fetch="select" lazy="false">
+                <column name="seatId" not-null="true" />
+      </many-to-one>  	
+
+    </class>
+
+</hibernate-mapping>
+
+ 

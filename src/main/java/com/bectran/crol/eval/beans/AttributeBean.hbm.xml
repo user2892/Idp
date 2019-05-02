@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.crol.eval.beans.AttributeBean" table="qualattr">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+    
+        <property name="modelId" type="string" column="ModelId" />
+        <property name="shortName" type="string" column="ShortName" />
+        <property name="fullName" type="string" column="FullName" />
+        <property name="dataType"   type="string" column="DataType" />
+        <property name="weight"  type="double"  column="Weight" />
+        <property name="compFlag" type="string" column="CompFlag" />
+        
+        <set name="answerSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                <column name="AttributeId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.crol.eval.beans.AnswerBean"/>
+        </set>	        
+    </class>
+
+</hibernate-mapping>

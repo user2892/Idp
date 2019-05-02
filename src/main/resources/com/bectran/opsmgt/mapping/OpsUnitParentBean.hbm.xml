@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.opsmgt.beans.OpsUnitParentBean" table="ops_parent_defn">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+	<property name="headerId" type="long" column="headerId" />
+	<property name="status" type="string" column="status" />
+	<property name="name" type="string" column="name" />		
+	<property name="globalScope" type="string" column="globalScope" />	
+	
+	<property name="categoryId" type="long" column="categoryId" />
+	<property name="internalCode" type="string" column="internalCode" />
+	
+    <many-to-one name="category" class="com.bectran.opsmgt.beans.OpsUnitParentCategoryBean" update="false"   insert="false" fetch="select" lazy="false">
+                 <column name="categoryId" not-null="true" />
+     </many-to-one> 
+
+	</class>
+
+</hibernate-mapping>
+
+	

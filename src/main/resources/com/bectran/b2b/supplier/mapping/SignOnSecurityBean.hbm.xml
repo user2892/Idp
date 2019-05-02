@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.SignOnSecurityBean" table="s_sso">
+      	<id name="userId" type="string" column="userId">
+			<generator class="assigned" />
+		</id>  
+
+	<property name="supplierId" type="long" column="supplierId" />		
+	<property name="ssoKey" type="string" column="ssoKey" />	
+	<property name="ssoValue" type="string" column="ssoValue" />
+	<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+	<property name="expirationDate" type="timestamp" column="expirationDate" />	
+	<property name="ipAddress" type="string" column="ipAddress" />
+	<property name="aesSalt" type="string" column="aesSalt" />
+		
+	<property name="verficationCode" type="string" column="verficationCode" />	
+	<property name="lastVcodeDate" type="timestamp" column="lastVcodeDate" />		
+
+         <set name="activitySet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                <column name="userId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.supplier.beans.SignOnSecurityActivityBean"/>
+        </set>  	
+	
+    </class>
+
+</hibernate-mapping>
+

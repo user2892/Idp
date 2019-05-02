@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.b2b.customer.beans.CusFsHighlightBean" table="c_fs_highlight">
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>
+		<property name="acctNum" type="string" column="acctNum" />		
+		<property name="supplierId" type="long" column="supplierId" />			
+		<property name="code" type="string" column="code" />
+		<property name="name" type="string" column="name" />
+        <property name="value" type="double" column="value" />
+        <property name="headerId" type="long" column="headerId" />
+        
+    </class>
+
+</hibernate-mapping>
+

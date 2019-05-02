@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.b2b.customer.beans.CusCurrentTermsBean" table="c_current_term">
+
+         <id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+        
+        <property name="acctNum" type="string" column="acctNum" />
+        <property name="supplierId" type="long" column="supplierId" />	
+        
+        <property name="approvedLimit" type="double" column="approvedLimit" />		
+		<property name="approvalDate" type="timestamp" column="approvalDate" />	
+		<property name="termCode" type="string" column="termCode" />
+		<property name="termDescription" type="string" column="termDescription" />		
+	
+		<property name="approvalMode" type="string" column="approvalMode" />		
+        <property name="appBasedRefId" type="long" column="appBasedRefId" />		
+        <property name="appBasedRefLabel" type="string" column="appBasedRefLabel" />				
+        <property name="noAppModeRefId" type="long" column="noAppModeRefId" />
+		<property name="noAppModeRefLabel" type="string" column="noAppModeRefLabel" />	
+		<property name="internalAcctNum" type="string" column="internalAcctNum" />	
+		<property name="requestId" type="long" column="requestId" />
+
+		<property name="riskRating" type="string" column="riskRating" />
+		<property name="riskRatingClass" type="string" column="riskRatingClass" />
+		
+		<property name="reviewId" type="long" column="reviewId" />
+		<property name="nextReviewDate" type="timestamp" column="nextReviewDate" />	
+		
+		<property name="lastReviewDate" type="timestamp" column="lastReviewDate" />			
+		
+
+        
+    </class>
+
+</hibernate-mapping>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.SupplierUserBean" table="s_user">
+  		
+    	<id name="userId" type="string" column="UserId">
+			<generator class="assigned" />
+		</id>  
+		
+	
+		<property name="encryptedPassword" type="string" column="Psword" />
+		<property name="role" type="string" column="UserRole" />
+		<property name="firstName" type="string" column="FName" />
+		<property name="lastName" type="string" column="LName" />
+		<property name="phone" type="string" column="PhoneNbr" />
+		<property name="email" type="string" column="EMail" />
+		<property name="status" type="string" column="Status" />
+		<property name="roleFlag" type="string" column="RoleFlag" />
+		<property name="scopeOfDocReceipt" type="string" column="scopeOfDocReceipt" />
+		<property name="dateCreated" type="timestamp" column="DateCreated" />									
+		<property name="lastLogonDate" type="timestamp" column="LastLogonDate" />
+		
+		<property name="secQuestion" type="string" column="SecQuestion" />
+		<property name="secAnswer" type="string" column="SecAnswer" />
+		<property name="userClass" type="string" column="UserClass" />
+		
+		<property name="title" type="string" column="Title" />
+		<property name="department" type="string" column="Dept" />
+		<property name="salutation" type="string" column="Salutation" />
+		<property name="agreedToTerm" type="string" column="agree_to_terms" />
+		
+		<property name="lastPwdResetDate" type="timestamp" column="LastPwdResetDate" />	
+		
+		<property name="crolCorpID" type="string" column="crolCorpID" />	
+
+		<property name="mainContact" type="string" column="mainContact" />	
+		<property name="supplierId" type="long" column="supplierId" />			
+		<property name="userConfirm" type="string" column="userConfirm" />	
+		<property name="receiveEmail" type="string" column="receiveEmail" />	
+		
+		<property name="userLevel" type="string" column="userLevel" />	
+		<property name="titleCode" type="string" column="titleCode" />
+		
+		<property name="deletedUserStatus" type="string" column="deletedUserStatus" />
+		<property name="opsAdministrator" type="string" column="opsAdministrator" />
+		<property name="internalCode" type="string" column="internalCode" />
+		
+
+
+    </class>
+
+</hibernate-mapping>

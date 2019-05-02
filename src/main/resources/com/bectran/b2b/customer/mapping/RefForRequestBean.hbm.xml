@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.RefForRequestBean" table="c_refforrequest">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+		<property name="requestId" type="long" column="RequestId" />
+		<property name="refereeContactId" type="long" column="RefContactId" />
+		<property name="dateCreated" type="timestamp" column="dateCreated" />	
+		<property name="acctNum" type="string" column="AcctNum" />	
+		<property name="referenceType" type="string" column="RefType" />	
+		<property name="callStatus" type="string" column="CallStatus" />	
+		<property name="lastActivity" type="timestamp" column="LastActivity" />	
+		<property name="refereeId" type="long" column="RefId" />		
+ 		<property name="reminderCount" type="integer" column="ReminderCount" />		
+ 		<property name="crolRequestId" type="long" column="CrolRequestId" />
+		<property name="userId" type="string" column="UserId" />	
+		<property name="callComment" type="string" column="CallComment" />	
+		<property name="autoOrManual" type="string" column="AutoManual" />
+		
+		<property name="internalAcctNum" type="string" column="internalAcctNum" />
+		<property name="accountType" type="string" column="accountType" />
+		<property name="signatory" type="string" column="signatory" />							
+		
+        <many-to-one name="referee" class="com.bectran.b2b.customer.beans.RefereeBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="RefId" not-null="true" />
+        </many-to-one>  
+        
+        <many-to-one name="refereeContact" class="com.bectran.b2b.customer.beans.RefContactBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="RefContactId" not-null="true" />
+        </many-to-one>  
+        
+  
+
+        				
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bectran:schema targetNamespace="http://www.bectran.com/" elementFormDefault="qualified" xmlns:bectran="http://www.w3.org/2001/XMLSchema" xmlns="http://www.bectran.com/">
+
+    <bectran:element name="customer-data" type="customer-data-type"></bectran:element>
+
+    <bectran:complexType name="customer-data-type">
+    	<bectran:sequence>
+    		<bectran:element name="customer" type="customer-type" maxOccurs="1" ></bectran:element>
+    	</bectran:sequence>
+    </bectran:complexType>
+
+    <bectran:complexType name="customer-type">
+    	<bectran:sequence>
+    	
+    	
+    		<bectran:element name="amountRequested" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:double">
+    					<bectran:minInclusive value="0"></bectran:minInclusive>
+    					<bectran:maxInclusive value="99999999999"></bectran:maxInclusive>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>       	
+    	
+    	
+      		<bectran:element name="analystName" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="300"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>    
+ 			<bectran:element name="approvalDate" type="bectran:date"></bectran:element> 
+    		<bectran:element name="approvedLimit" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:double">
+    					<bectran:minInclusive value="0"></bectran:minInclusive>
+    					<bectran:maxInclusive value="99999999999"></bectran:maxInclusive>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>   
+    		
+     		<bectran:element name="approvigOfficerName" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="300"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element> 
+    		 
+     		<bectran:element name="bectranCustomerId"  >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="50"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>  
+     		<bectran:element name="clientAccountId" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="20"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>      		    		
+
+      		
+
+     		<bectran:element name="creditTerm" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="100"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>       	
+    		
+    		
+     		<bectran:element name="creditTermCode" >
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="50"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>      		
+    			
+     		<bectran:element name="customerName">
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"></bectran:minLength>
+    					<bectran:maxLength value="300"></bectran:maxLength>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>   		
+   		<bectran:element name="riskRating">
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"/>
+    					<bectran:maxLength value="10"/>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>
+    		
+    		<bectran:element name="riskRatingClass">
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"/>
+    					<bectran:maxLength value="10"/>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element>     
+ 			
+    		<bectran:element name="transactionId">
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"/>
+    					<bectran:maxLength value="20"/>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element> 
+
+    		<bectran:element name="creditDecision">
+    			<bectran:simpleType>
+    				<bectran:restriction base="bectran:string">
+    					<bectran:minLength value="0"/>
+    					<bectran:maxLength value="20"/>
+    				</bectran:restriction>
+    			</bectran:simpleType>
+    		</bectran:element> 
+
+			<bectran:element name="groupName" minOccurs="0"   >
+				<bectran:simpleType>
+					<bectran:restriction base="bectran:string">
+						<bectran:minLength value="1"/>
+						<bectran:maxLength value="100"/>
+					</bectran:restriction>
+				</bectran:simpleType>
+			</bectran:element>
+			<bectran:element name="internalGroupCode" minOccurs="0"   >
+				<bectran:simpleType>
+					<bectran:restriction base="bectran:string">
+						<bectran:minLength value="0"/>
+						<bectran:maxLength value="45"/>
+					</bectran:restriction>
+				</bectran:simpleType>
+			</bectran:element>
+			<bectran:element name="bectranReferenceId" minOccurs="0"   >
+				<bectran:simpleType>
+					<bectran:restriction base="bectran:string">
+						<bectran:minLength value="1"/>
+						<bectran:maxLength value="45"/>
+					</bectran:restriction>
+				</bectran:simpleType>
+			</bectran:element>
+ 
+			
+			<bectran:element name="nextReviewDate" minOccurs="0"   >
+				<bectran:simpleType>
+					<bectran:restriction base="bectran:string">
+						<bectran:minLength value="1"/>
+						<bectran:maxLength value="45"/>
+					</bectran:restriction>
+				</bectran:simpleType>
+			</bectran:element>
+			    		
+    	</bectran:sequence>
+    	
+    	
+    	<bectran:attribute name="account-id" use="required" >
+    		<bectran:simpleType>
+    			<bectran:restriction base="bectran:string">
+    				<bectran:minLength value="1"></bectran:minLength>
+    				<bectran:maxLength value="25"></bectran:maxLength>
+    			</bectran:restriction>
+    		</bectran:simpleType>
+    	</bectran:attribute>
+    </bectran:complexType>
+</bectran:schema>

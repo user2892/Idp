@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.DocumentCheckListBean" table="s_doc_checklist">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+
+		<property name="docId" type="string" column="docId" />
+		<property name="trxnDate" type="timestamp" column="trxnDate" />
+		<property name="status"  type="string" column="status" />
+		
+		<property name="headerId" type="long" column="headerId" />		
+
+
+	</class>
+
+</hibernate-mapping>
+

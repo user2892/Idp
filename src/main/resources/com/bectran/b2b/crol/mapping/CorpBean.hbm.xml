@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.crol.beans.CorpBean" table="corp">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+					
+		<property name="addressLineOne" type="string" column="address_1" />
+		<property name="addressLineTwo" type="string" column="address_2" />
+		<property name="city" type="string" column="city" />
+		<property name="corpID" type="string" column="corp_id" />
+		<property name="corpName" type="string" column="corp_name" />
+		<property name="orgPassCode" type="string" column="corp_passcode" />
+		<property name="countryId" type="string" column="country_id" />
+		<property name="orgMainEmail" type="string" column="email" />
+		<property name="orgType" type="string" column="orgtype" />
+		<property name="state" type="string" column="state" />
+		<property name="zipCode" type="string" column="zipcode" />
+		<property name="registrationStatus" type="string" column="regisstatus" />
+		<property name="orgMainPhone" type="string" column="phone" />
+		<property name="lastUpdate" type="timestamp" column="lastupdate" />
+		<property name="dateSignedUp" type="timestamp" column="date_signedup" />
+		<property name="bankAndFinInst" type="string" column="bankfin" />
+		<property name="sectorId" type="string" column="sectorid" />
+		<property name="industryId" type="string" column="industryid" />
+		<property name="orgUrl" type="string" column="orgurl" />
+		<property name="countryName" type="string" column="country_name" />
+		<property name="inOrOutNetFlag" type="string" column="netflag" />
+		<property name="tickerSymbol" type="string" column="ticker_symbol" />
+		<property name="exchange" type="string" column="exchange" />
+		<property name="annualSalesRange" type="string" column="ann_sales_range" />
+		<property name="annualSalesRangeID" type="string" column="ann_sales_id" />
+		<property name="domainName" type="string" column="domain_name" />
+		
+		
+		<property name="sizeCategory" type="string" column="size_category" />
+
+		
+
+
+	</class>
+
+</hibernate-mapping>

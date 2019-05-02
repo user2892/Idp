@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.CreditDialogueBean" table="s_credit_diaplogue">
+  		
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+		
+		<property name="customerAcctNum" type="string" column="customerAcctNum" />		
+		<property name="dateCreated" type="timestamp" column="dateCreated" />									
+		<property name="supplierId" type="long" column="supplierId" />		
+		<property name="noteSource" type="string" column="noteSource" />	
+		<property name="userId" type="string" column="userId" />	
+		<property name="subject" type="string" column="subject" />
+		<property name="note" type="string" column="note" />
+		<property name="title" type="string" column="title" />
+		<property name="author" type="string" column="author" />
+		<property name="companyName" type="string" column="companyName" />
+		<property name="appId" type="string" column="appId" />		
+		<property name="requestId" type="long" column="requestId" />		
+
+		
+	
+
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.attribute.beans.AttributeTypeBean"
+        table="af_attribute_type">
+        <id column="attributeTypeID" name="attributeTypeID" type="int">
+            <generator class="native" />
+        </id>
+        <property name="name" type="string" column="name" />
+        <property name="description" type="string" column="description" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+    </class>
+</hibernate-mapping>

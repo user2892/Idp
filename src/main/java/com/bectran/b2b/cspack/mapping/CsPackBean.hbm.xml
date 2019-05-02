@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.cspack.beans.CsPackBean" table="cs_pack">
+     	<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+        <property name="userId" type="string" column="userId" />
+  		<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+		<property name="assignmentStatus" type="string" column="assignmentStatus" />	
+
+		 <many-to-one name="csUserDetail" class="com.bectran.b2b.cspack.beans.CsUserDetailBean" update="false"   insert="false" fetch="select" lazy="false">
+	                 <column name="userId" not-null="true" />
+	     </many-to-one> 
+               
+             
+    </class>
+
+</hibernate-mapping>

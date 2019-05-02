@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.customer.beans.CustomCreditAppValuesBean" table="c_custom_app_value">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+			
+		<property name="dataType" type="string" column="dataType" />
+		<property name="dataLength" type="integer" column="dataLength" />
+		<property name="encryptData" type="string" column="encryptData" />
+		<property name="listType" type="string" column="listType" />
+		<property name="required" type="string" column="required" />
+		<property name="displayOrder" type="integer" column="displayOrder" />
+		
+		<property name="questionId" type="long" column="questionId" />
+        <property name="answerId" type="long" column="answerId" />
+		<property name="value" type="string" column="value" />
+		<property name="question" type="string" column="question" />
+		
+		<property name="requestId" type="long" column="requestId" />
+		<property name="encSalt" type="string" column="encSalt" />	
+		
+		<property name="catId" type="long" column="catId" />
+		<property name="code" type="string" column="code" />
+		    
+	</class>
+
+</hibernate-mapping>

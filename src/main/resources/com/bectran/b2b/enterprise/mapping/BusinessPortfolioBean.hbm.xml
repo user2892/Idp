@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.BusinessPortfolioBean" table="zs_cus_biz_portfolio">
+      	<id name="id" type="string" column="id">
+			<generator class="assigned" />
+		</id>  
+	<property name="supplierId" type="long" column="supplierId" />			
+	<property name="name" type="string" column="name" />
+ 	<property name="accountId" type="string" column="accountId" /> 	
+	
+    </class>
+
+</hibernate-mapping>
+

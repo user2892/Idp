@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.AccountCreationNotificationBean" table="zs_acct_creation_notif">
+      	<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>  
+				
+	<property name="requestId" type="string" column="requestId" />
+	<property name="companyId" type="string" column="companyId" />	
+	<property name="accountId" type="string" column="accountId" />	
+	<property name="opsUnitCode" type="string" column="opsUnitCode" />
+	<property name="customerName" type="string" column="customerName" />
+	<property name="customerType" type="string" column="customerType" />
+	<property name="creditLimit" type="double" column="creditLimit" />	
+	<property name="creditTerm" type="string" column="creditTerm" />
+	<property name="bectranCustomerId" type="string" column="bectranCustomerId" />	
+	<property name="processStatus" type="string" column="processStatus" />					
+	<property name="processTime" type="timestamp" column="processTime" />
+	
+	<property name="groupId" type="long" column="groupId" />
+	<property name="supplierId" type="long" column="supplierId" />
+	
+	<property name="creditTermCode" type="string" column="creditTermCode" />
+	
+    </class>
+
+</hibernate-mapping>
+
+

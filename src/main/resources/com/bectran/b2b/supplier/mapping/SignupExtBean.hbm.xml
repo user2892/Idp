@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.SignupExtBean" table="s_signup_ext">
+     	<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>  
+
+	
+	<property name="userId" type="string" column="userId" />	
+	<property name="link" type="string" column="link" />
+	<property name="numberOfCreditApp" type="string" column="numberOfCreditApp" />
+	<property name="dateCreated" type="timestamp" column="dateCreated" />
+	<property name="activated" type="string" column="activated" />
+	
+    </class>
+
+</hibernate-mapping>

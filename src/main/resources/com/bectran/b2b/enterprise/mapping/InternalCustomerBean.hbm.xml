@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.InternalCustomerBean" table="zs_customer_acct">
+      	<id name="id" type="string" column="id">
+			<generator class="assigned" />
+		</id>  
+	<property name="supplierId" type="long" column="supplierId" />			
+	<property name="accountNum" type="string" column="accountNum" />
+
+	<property name="name" type="string" column="name" />	
+	<property name="city" type="string" column="city" />	
+	<property name="stateCode" type="string" column="stateCode" />
+	<property name="countryCode" type="string" column="countryCode" />
+	<property name="addressLineOne" type="string" column="addressLineOne" />
+	<property name="addressLineTwo" type="string" column="addressLineTwo" />							
+	
+	<property name="dateAcctEstablished" type="timestamp" column="dateAcctEstablished" />
+
+	<property name="creditLine" type="big_decimal" column="creditLine" />
+	<property name="balance" type="big_decimal" column="balance" />
+	<property name="zipCode" type="string" column="zipCode" />		
+	
+	<property name="phone" type="string" column="phone" />
+	<property name="fax" type="string" column="fax" />
+	
+	<property name="groupId" type="long" column="groupId" />
+	
+	<property name="internalUniqueID" type="string" column="internalUniqueID" />
+	
+    </class>
+
+</hibernate-mapping>
+

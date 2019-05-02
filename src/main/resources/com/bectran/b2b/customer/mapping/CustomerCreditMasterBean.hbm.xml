@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.b2b.customer.beans.CustomerCreditMasterBean" table="c_customer_credit_mst">
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>
+		
+		<property name="acctNum" type="string" column="acctNum" />		
+		<property name="supplierId" type="long" column="supplierId" />	
+
+        <property name="paymentsWithTerms" type="double" column="paymentsWithTerms" />
+        <property name="slowNegativePayment" type="double" column="slowNegativePayment" />
+        <property name="avgCreditLimit" type="double" column="avgCreditLimit" />
+        <property name="maxCreditLimit" type="double" column="maxCreditLimit" />
+        <property name="maxBalanceOutstanding" type="double" column="maxBalanceOutstanding" />
+        <property name="maxBalancePastDue" type="double" column="maxBalancePastDue" />
+		
+		<property name="riskRating" type="string" column="riskRating" />		
+		<property name="riskLevel" type="string" column="riskLevel" />		
+		<property name="riskExplanation" type="string" column="riskExplanation" />		
+        <property name="creditLimit" type="double" column="creditLimit" />		
+        <property name="payDexScore" type="double" column="payDexScore" />		
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />		
+		<property name="creditAppDate" type="timestamp" column="creditAppDate" />	
+
+		<property name="customerHasFs" type="string" column="customerHasFs" />
+		<property name="finStmtDate" type="string" column="finStmtDate" />
+		<property name="finStmtAuditQuality" type="string" column="finStmtAuditQuality" />						
+			
+        <set name="fsHighLightSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                 <column name="headerId"  not-null="true" />
+            </key>
+             <one-to-many class="com.bectran.b2b.customer.beans.CusFsHighlightBean"/>
+        </set>    
+        
+    </class>
+
+</hibernate-mapping>
+

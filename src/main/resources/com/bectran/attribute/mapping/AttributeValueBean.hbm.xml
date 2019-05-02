@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.attribute.beans.AttributeValueBean"
+        table="af_attribute_value">
+        <id column="id" name="id" type="string">
+            <generator class="assigned" />
+        </id>
+        <property name="objectID" type="long" column="objectID" />
+        <property name="attributeDefID" type="long" column="attributeDefID" />
+        <property name="attributeGroupID" type="long"
+            column="attributeGroupID" />
+        <property name="value" type="string" column="value" />
+        <property name="dateValue" type="timestamp" column="dateValue" />
+        <property name="listValueID" type="long" column="listValueID" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+    </class>
+</hibernate-mapping>

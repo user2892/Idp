@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.DeclinedRequestBean" table="zs_declined_request">
+		
+      	<id name="headerId" type="long" column="headerId">
+			<generator class="assigned" />
+		</id> 
+	
+	<property name="userId" type="string" column="userId" />		
+ 	<property name="dateDeclined" type="timestamp" column="dateDeclined" />	
+	<property name="reasonForDecline" type="string" column="reasonForDecline" />
+
+    <many-to-one name="officer" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+     		  insert="false" fetch="select" lazy="false">
+              <column name="userId" not-null="true" />
+    </many-to-one> 
+	
+	</class>
+
+</hibernate-mapping>

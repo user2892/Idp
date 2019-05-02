@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.crol.beans.CrolRequestBean" table="creditrequest">
+   		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="customerCorpId"  type="string" column="customer_corp_id" />
+		<property name="dateOfResponse"  type="timestamp" column="date_of_response" />
+		<property name="dateSent"  type="timestamp" column="date_sent" />
+		<property name="fromCorpId"  type="string" column="from_corp_id" />
+		<property name="originatingCorpId"  type="string" column="origin_corp_id" />
+		<property name="toCorpId"  type="string" column="to_corp_id" />
+		<property name="requestorId"  type="string" column="requestor_id" />
+		<property name="requestType"  type="string" column="requesttype" />
+		<property name="signedRequest"  type="string" column="signed_request" />
+		<property name="requestStatus"  type="string" column="req_status" />
+		<property name="requestStatusAction"  type="string" column="req_status_action" />
+		<property name="emailSentStatus"  type="string" column="email_status" />
+		<property name="emailSentTrial"   column="email_trial" />
+		<property name="requestOriginator"  type="string" column="request_originator" />
+		<property name="requestComment"  type="string" column="request_comment" />
+		<property name="reasonForRequest"  type="string" column="reason_request" />
+		<property name="amountRequested"  type="double" column="amount_requested" />
+		<property name="acctOpenedForCode"  type="string" column="acct_opened" />
+		<property name="hiCredit"  type="double" column="hi_credit" />
+		<property name="balanceOwing"  type="double" column="balance_owing" />
+		<property name="paymentExperience"  type="string" column="payment_experience" />
+		<property name="termsCode"  type="string" column="terms_code" />
+		<property name="reminderCount"   column="reminder_count" />
+		<property name="inOrOutNetFlag" type="string" column="netflag" />
+		<property name="currency" type="string" column="currency_code" />
+		<property name="onetRequestId"  type="string" column="onet_req_id" />
+		<property name="requestSource"  type="string" column="request_source" />
+		<property name="lastReminderDate"  type="timestamp" column="last_reminder_date" />
+		<property name="requestMode" type="string" column="request_mode" />		
+		<property name="refEmail" type="string" column="refEmail" />
+		<property name="internalAcctNum" type="string" column="internalAcctNum" />
+		<property name="accountType" type="string" column="accountType" />
+		<property name="signatory" type="string" column="signatory" />		
+		<property name="reminderFlag" type="string" column="reminderFlag" />
+		
+		<property name="creditAppIdLabel" type="string" column="creditAppIdLabel" />
+		<property name="creditAppId" type="long" column="creditAppId" />	
+		
+		<property name="refUserId" type="long" column="refUserId" />
+		
+		<property name="groupRequestFlag" type="string" column="groupRequestFlag" />
+		<property name="groupId" type="long" column="groupId" />
+		<property name="noRefCallFlag" type="string" column="noRefCallFlag" />	
+		
+        <many-to-one name="toCorp" class="com.bectran.b2b.crol.beans.CorpBean" property-ref="corpID"
+         update="false" insert="false" fetch="select" lazy="false">
+            <column name="to_corp_id" not-null="true" />
+        </many-to-one> 	
+        <many-to-one name="fromCorp" class="com.bectran.b2b.supplier.beans.SupplierCompanyBean"  property-ref="corpID"
+         update="false" insert="false" fetch="select" lazy="false">
+            <column name="from_corp_id" not-null="true" />
+        </many-to-one> 
+        <many-to-one name="customerCorp" class="com.bectran.b2b.crol.beans.CorpBean"  property-ref="corpID"
+         update="false" insert="false" fetch="select" lazy="false">
+            <column name="customer_corp_id" not-null="true" />
+        </many-to-one>   
+        <many-to-one name="requestor" class="com.bectran.b2b.supplier.beans.SupplierUserBean"  
+         update="false" insert="false" fetch="select" lazy="false">
+            <column name="requestor_id" not-null="true" />
+        </many-to-one>         
+             			
+	</class>
+
+</hibernate-mapping>

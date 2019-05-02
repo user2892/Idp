@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.ApprovalLevelBean" table="zs_approval_level">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+		
+	<property name="headerId" type="long" column="headerId" />		
+	<property name="level" type="string" column="level" />	
+	<property name="approvalLimit" type="double" column="approvalLimit" />		
+	
+    	
+
+	</class>
+
+</hibernate-mapping>

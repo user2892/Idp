@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.SignOnSecurityActivityBean" table="s_sso_activity">
+      	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+
+	<property name="userId" type="string" column="userId" />
+	<property name="ssoKey" type="string" column="ssoKey" />	
+	<property name="ssoValue" type="string" column="ssoValue" />
+	<property name="activityDate" type="timestamp" column="activityDate" />
+	<property name="expirationDate" type="timestamp" column="expirationDate" />	
+	<property name="ipAddress" type="string" column="ipAddress" />
+	
+	
+    </class>
+
+</hibernate-mapping>
+

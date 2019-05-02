@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.crol.beans.CreditRefEvalBean"
+        table="refrespdetail">
+        <id name="id" type="long" column="SequenceNum">
+            <generator class="native" />
+        </id>
+        <property name="headerId" type="long" column="HeaderId" />
+        <property name="shortName" type="string" column="ShortName" />
+        <property name="numericValue" type="double" column="NumValue" />
+        <property name="customerId" type="string" column="customer_corp_id" />
+        <property name="refId" type="string" column="referee_corp_id" />
+        <property name="dataType" type="string" column="DataType" />
+        <property name="alphaAnsId" type="long" column="AlphaAnsId" />
+        <property name="ansScore" type="integer" column="AnsScore" />
+        <property name="bankOrTrade" type="string" column="BankOrTrade" />
+        <property name="attrWeight" type="double" column="AttrWeight" />
+        <property name="weightedScore" type="double" column="WeightedScore" />
+        <property name="alphaAnsName" type="string" column="AlphaAnsName" />
+        <property name="attribute" type="string" column="AttrName" />
+        <property name="rawValue" type="string" column="RawValue" />
+        <property name="answerCode" type="string" column="AnswerCode" />
+    </class>
+</hibernate-mapping>

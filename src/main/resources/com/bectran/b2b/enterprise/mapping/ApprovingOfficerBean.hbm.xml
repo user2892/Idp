@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.ApprovingOfficerBean" table="zs_approving_officer">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+		
+	<property name="headerId" type="long" column="headerId" />		
+	<property name="userId" type="string" column="userId" />		
+ 	<property name="dateSigned" type="timestamp" column="dateSigned" />	
+	<property name="signatureImage" type="binary" column="signatureImage" />
+	
+	<property name="gkey" type="string" column="gkey" />
+	<property name="action" type="string" column="action" />
+	<property name="actionStatus" type="string" column="actionStatus" />
+	<property name="dateCreated" type="timestamp" column="dateCreated" />	
+
+	<property name="approvalComment" type="string" column="approvalComment" />	
+	
+	
+    <many-to-one name="userBean" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+     		  insert="false" fetch="select" lazy="false">
+              <column name="userId" not-null="true" />
+    </many-to-one> 	
+	</class>
+
+</hibernate-mapping>

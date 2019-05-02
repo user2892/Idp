@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.bectran.b2b.customer.beans.CustomAppAttrValueBean" polymorphism="explicit" 
+		table="c_custom_app_attr_value">
+		<id column="id" name="id" type="string">
+			<generator class="assigned" />
+		</id>
+		<property column="objectID" generated="never" lazy="false"
+			name="objectID" type="long" />
+		<property column="attributeDefID" generated="never" lazy="false"
+			name="attributeDefID" type="long" />
+		<property column="attributeGroupID" generated="never" lazy="false"
+			name="attributeGroupID" type="long" />
+		<property column="value" generated="never" lazy="false" name="value"
+			type="string" />
+		<property column="dateValue" generated="never" lazy="false"
+			name="dateValue" type="timestamp" />
+		<property column="listValueID" generated="never" lazy="false"
+			name="listValueID" type="long" />
+		<property column="createdBy" generated="never" lazy="false"
+			name="createdBy" type="string" />
+		<property column="createdDate" generated="never" lazy="false"
+			name="createdDate" type="timestamp" />
+		<property column="modifiedBy" generated="never" lazy="false"
+			name="modifiedBy" type="string" />
+		<property column="modifiedDate" generated="never" lazy="false"
+			name="modifiedDate" type="timestamp" />
+	</class>
+</hibernate-mapping>

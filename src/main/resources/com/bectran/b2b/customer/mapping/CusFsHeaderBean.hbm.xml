@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.CusFsHeaderBean" table="c_fsheader">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="customerSupplierId" type="long" column="customerSupplierId" />
+        <property name="period" type="string" column="Period" />
+        <property name="stmtDate" type="string" column="StmtDate" />
+        <property name="auditQuality" type="string" column="AuditQual" />
+        <property name="rounding" type="string" column="Rounding" />
+        <property name="currency" type="string" column="Currency" />
+        <property name="fxrate" type="double" column="FXrate" />
+        <property name="annualize" type="string" column="Annualize" />
+ 		<property name="lastUpdate" type="timestamp" column="LastUpdateDate" />
+  		
+        <set name="fsDetailSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                <column name="HeaderId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.customer.beans.CusFsDetailBean" />
+        </set>
+    </class>
+
+</hibernate-mapping>

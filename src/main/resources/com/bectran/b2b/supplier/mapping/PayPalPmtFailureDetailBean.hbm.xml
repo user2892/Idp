@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.PayPalPmtFailureDetailBean" table="s_paypal_failure_dt">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="headerId" type="long" column="headerId" />	
+		<property name="name" type="string" column="name" />	
+		<property name="value" type="string" column="value" />
+	
+	</class>
+
+</hibernate-mapping>
+

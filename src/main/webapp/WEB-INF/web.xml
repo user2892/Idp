@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext.xml</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>capturedet</servlet-name>
+		<servlet-class>com.bectran.idp.CaptureDetails</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>captureDirectDetails</servlet-name>
+		<servlet-class>com.bectran.idp.CaptureDirectDetails</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>captureDirectDetailsSample</servlet-name>
+		<servlet-class>com.bectran.idp.CaptureDirectDetailsSample</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>authServlet</servlet-name>
+		<servlet-class>com.bectran.idp.AuthServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+    	Bootstrap Servlet</description>
+		<display-name>BootstrapServlet</display-name>
+		<servlet-name>BootstrapServlet</servlet-name>
+		<servlet-class>com.bectran.matrix.framework.BootstrapServlet</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>captureDirectDetails</servlet-name>
+		<url-pattern>/idp/captureDirectDetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>captureDirectDetailsSample</servlet-name>
+		<url-pattern>/idp/captureDirectDetailsSample</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>capturedet</servlet-name>
+		<url-pattern>/idp/capturedet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>authServlet</servlet-name>
+		<url-pattern>/idp/authServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+</web-app>

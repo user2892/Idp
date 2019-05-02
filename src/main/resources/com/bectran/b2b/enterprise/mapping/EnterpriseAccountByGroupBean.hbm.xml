@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class
+        name="com.bectran.b2b.enterprise.beans.EnterpriseAccountByGroupBean"
+        table="zsi_ent_credo_group">
+        <id name="id" type="long" column="id">
+            <generator class="assigned" />
+        </id>
+        <property name="accountCode" type="string" column="accountCode" />
+        <property name="passCode" type="string" column="passCode" />
+        <property name="processorEngine" type="string" column="processorEngine" />
+        <property name="authToken" type="string" column="authToken" />
+        <property name="accountStatus" type="string" column="accountStatus" />
+        <property name="lastUpdate" type="timestamp" column="lastUpdate" />
+        <property name="dateOfActivation" type="timestamp"
+            column="dateOfActivation" />
+        <property name="mysalt" type="string" column="mysalt" />
+        <property name="supplierId" type="long" column="supplierId" />
+        <property name="integrationServiceType" type="string"
+            column="integrationServiceType" />
+        <property name="inboundDataStartDate" type="timestamp"
+            column="inboundDataStartDate" />
+        <property name="operationMode" type="string" column="operationMode" />
+        <property name="accountId" type="string" column="accountId" />
+        <set name="enterpriseIntgServiceBeans" inverse="true" lazy="false"
+            cascade="all">
+            <key>
+                <column name="headerId" not-null="true" />
+            </key>
+            <one-to-many
+                class="com.bectran.b2b.enterprise.beans.EnterpriseIntgServiceBean" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.opsmgt.beans.OpsHeaderBean" table="ops_hd">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="assigned" />
+		</id>  
+
+	<property name="queueMethod" type="string" column="queueMethod" />		
+	<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+	<property name="status" type="string" column="status" />
+	<property name="name" type="string" column="name" />
+
+	
+	<property name="opsMgtLevel" type="integer" column="opsMgtLevel" />
+	<property name="levelNameWithPrefix" type="string" column="levelNameWithPrefix" />
+	
+	<property name="parentNameLabel" type="string" column="parentNameLabel" />
+	<property name="unitNameLabel" type="string" column="unitNameLabel" />
+	<property name="categoryNameLabel" type="string" column="categoryNameLabel" />
+	
+	<property name="internalSalesRepsMgt" type="string" column="internalSalesRepsMgt" />
+	
+	<property name="creditMgtScope" type="string" column="creditMgtScope" />
+	<property name="salesRepsNotificationScope" type="string" column="salesRepsNotificationScope" />
+	
+	<property name="multipleShipAndBill" type="string" column="multipleShipAndBill" />
+	<property name="multipleLocationRequest" type="string" column="multipleLocationRequest" /> 
+	
+	<property name="opsMgtMode" type="string" column="opsMgtMode" />
+ 
+	</class>
+
+</hibernate-mapping>
+
+
+ 
+ 
+ 

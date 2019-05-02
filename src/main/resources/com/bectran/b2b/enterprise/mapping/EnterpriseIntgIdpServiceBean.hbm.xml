@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.enterprise.beans.EnterpriseIntgIdpServiceBean"
+        table="zsi_ent_intg_idp_service">
+        <id name="id" type="long" column="id">
+            <generator class="assigned" />
+        </id>
+        <property name="postURL" type="string" column="postURL" />
+        <property name="type" type="string" column="type" />
+        <property name="externalUserID" type="string" column="externalUserID" />
+        <property name="externalPasscode" type="string" column="externalPasscode" />
+        <property name="externalPwdSalt" type="string" column="externalPwdSalt" />
+        <property name="transmitType" type="string" column="transmitType" />
+        <property name="externalId" type="string" column="externalId" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+
+        <property name="alertNotification" type="string" column="alertNotification" />
+        <property name="thresholdCount" type="integer" column="thresholdCount" />
+        <property name="notificationEmailID" type="string" column="notificationEmailID" />
+        <property name="batchProcess" type="string" column="batchProcess" />
+        <property name="lastBatchUpdateDt" type="timestamp" column="lastBatchUpdateDt" />
+        <property name="errorMsg" type="string" column="errorMsg" />
+        <property name="linkCode" type="string" column="linkCode" />
+        <property name="responseType" type="string" column="responseType" />
+        <property name="sslCertFlag" type="string" column="sslCertFlag" />
+         <set name="idpAttributeSet" inverse="true" lazy="false" fetch="select">
+            <key>
+                <column name="headerId" not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.idp.beans.IDPAttribute" />
+        </set>
+    </class>
+</hibernate-mapping>

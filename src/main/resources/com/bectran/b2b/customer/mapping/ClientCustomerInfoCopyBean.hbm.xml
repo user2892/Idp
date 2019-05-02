@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.ClientCustomerInfoCopyBean" table="c_customer_clientcopy">
+    	<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+		
+		<property name="acctNum" type="string" column="acctNum" />
+        <property name="name" type="string" column="Name" />
+        <property name="dateCreated" type="timestamp" column="DateCreated" />
+        <property name="lastUpdateDate" type="timestamp" column="lastUpdate" />
+        <property name="dunsNum" type="string" column="DunsNum" />
+        <property name="acctStatus" type="string" column="Status" />
+        <property name="typeOfBusiness" type="string" column="TypeOfBusiness" />
+        <property name="styleOfBusiness" type="string" column="StyleOfBusiness" />
+        <property name="fedIdNum" type="string" column="FederalIDNumber" />
+        <property name="taxId" type="string" column="TaxId" />
+        <property name="yearEstablished" type="integer" column="YearEstablished" />
+        <property name="annualSales" type="double" column="AnnualSales" />
+        <property name="anticipatedMonthlyPurchase" type="double" column="MonthlyPurchase" />
+        <property name="experianFileNum" type="string" column="ExperianFileNum" />
+        <property name="fiscalYearEndMonth" type="string" column="FiscalYearEndMonth" />
+        <property name="fiscalYearEndDay" type="string" column="FiscalYearEndDay" />
+        <property name="sectorId" type="string" column="SectorId" />
+        <property name="industryId" type="string" column="IndustryId" />  
+  		<property name="annualSalesRangeID" type="string" column="annualSalesRangeID" />	
+ 		<property name="addressLineOne" type="string" column="addressLineOne" />
+		<property name="addressLineTwo" type="string" column="addressLineTwo" />
+		<property name="city" type="string" column="city" />
+		<property name="countryId" type="string" column="countryId" />
+		<property name="state" type="string" column="state" />
+		<property name="zipCode" type="string" column="zipCode" />		
+ 		<property name="orgMainPhone" type="string" column="orgMainPhone" />										
+   		<property name="stateOfIncorporation" type="string" column="stateOfIncorporation" />	   	
+  		<property name="numOfEmployee" type="string" column="numOfEmployee" />
+  		<property name="orgMainFax" type="string" column="orgMainFax" />	
+  		
+		<property name="customerDBAName" type="string" column="customerDBAName" />	
+		<property name="domainName" type="string" column="domainName" />
+		<property name="supplierId" type="long" column="supplierId" />	 
+		
+		<property name="integrationUpdateFlag" type="string" column="integrationUpdateFlag" />
+		<property name="integrationUpdateDate" type="timestamp" column="integrationUpdateDate" />	
+	   	<property name="transmittedFlag" type="string" column="transmittedFlag" />	
+	   	
+	   	<property name="federalTaxIdEncryptValue" type="string" column="federalTaxIdEncryptValue" />
+ 		<property name="isFederalTaxIdEncrypted" type="string" column="isFederalTaxIdEncrypted" />
+				   	
+  		
+    </class>
+
+</hibernate-mapping>
+
+
+

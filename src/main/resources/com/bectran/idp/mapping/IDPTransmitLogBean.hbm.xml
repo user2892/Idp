@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.idp.beans.IDPTransmitLogBean" table="c_credit_idp_transmit">
+     	<id name="requestId" type="long" column="requestId">
+				<generator class="assigned" />
+		</id>
+		
+	    <property name="transmittedFlag" type="string" column="transmittedFlag"/>	
+	    <property name="lastUpdate" type="timestamp" column="lastUpdate" />
+	    <property name="groupId" type="long" column="groupId" />
+	    <property name="supplierId" type="long" column="supplierId" />
+	    <property name="processFlag" type="string" column="processFlag" />
+	    <property name="retryCount" type="integer" column="retryCount" />
+	
+	 </class>
+
+</hibernate-mapping>

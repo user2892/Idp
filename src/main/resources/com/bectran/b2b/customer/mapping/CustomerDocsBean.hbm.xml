@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.CustomerDocsBean" table="c_cus_doc">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		
+		<property name="supplierId" type="long" column="supplierId" />
+		<property name="customerSupplierId" type="long" column="customerSupplierId" />	
+		<property name="docModelId" type="long" column="docModelId" />	
+		<property name="status" type="string" column="status" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+ 		<property name="acctNum" type="string" column="acctNum" />
+ 		<property name="expiration" type="timestamp" column="expiration" />	 	
+		
+		<property name="docFileSystemName" type="string" column="docFileSystemName" />	
+		<property name="fileType" type="string" column="fileType" />
+		<property name="fileExt" type="string" column="fileExt" />			
+		<property name="docName" type="string" column="docName" />
+		<property name="docLabel" type="string" column="docLabel" />
+		<property name="description" type="string" column="description" />			
+
+		
+		<property name="cusDocType" type="string" column="cusDocType" />	
+		<property name="signableContent" type="string" column="signableContent" />		
+		
+		<property name="stateCode" type="string" column="stateCode" />
+		<property name="stateName" type="string" column="stateName" />
+		<property name="expirationDateRqd" type="string" column="expirationDateRqd" />	
+		<property name="docIdNumber" type="string" column="docIdNumber" />
+		
+		<property name="lastUpdateRequestDate" type="timestamp" column="lastUpdateRequestDate" />			
+		<property name="flaggedForUpdate" type="string" column="flaggedForUpdate" />
+		
+		
+		
+		<many-to-one name="customerSupplier" class="com.bectran.b2b.customer.beans.CustomerSupplierBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="customerSupplierId" not-null="true" />
+        </many-to-one>  			
+		
+
+    </class>
+
+</hibernate-mapping>
+

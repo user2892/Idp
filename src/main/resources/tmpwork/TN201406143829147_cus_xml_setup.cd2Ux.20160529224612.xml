@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inbound-customer-data xmlns="http://www.bectran.com/">
+    <customer account-id="TN20160519926" transaction-id="9147">
+        <business-group-info>
+            <groupName>Ludus Groceries</groupName>
+            <internalGroupCode></internalGroupCode>
+            <bectranReferenceId>153</bectranReferenceId>
+        </business-group-info>
+        <basic-info>
+            <addressLineOne>qwe</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <annualSalesRange>USD 1000-2000</annualSalesRange>
+            <bectranCustomerId>TN20160519926</bectranCustomerId>
+            <city>qweqw</city>
+            <contactPersonFirstName>qew</contactPersonFirstName>
+            <contactPersonLastName>qweqwe</contactPersonLastName>
+            <contactPersonPhone>(213) 131-2323 x24234</contactPersonPhone>
+            <contactPersonTitle>President</contactPersonTitle>
+            <countryId>US</countryId>
+            <customerDbaName>qwe</customerDbaName>
+            <customerLegalName>wqe</customerLegalName>
+            <dateCreatedInBectran>2016-05-01</dateCreatedInBectran>
+            <dunsNumber></dunsNumber>
+            <fax></fax>
+            <federalTaxId></federalTaxId>
+            <numOfEmployee>less than 5 employees</numOfEmployee>
+            <phone>(123) 123-1231 x23232</phone>
+            <state>CA</state>
+            <stateOfIncorporation>AL</stateOfIncorporation>
+            <styleOfBusiness>Re-Tailer</styleOfBusiness>
+            <typeOfBusiness>private</typeOfBusiness>
+            <yearEstablished>0</yearEstablished>
+            <zipCode>12312</zipCode>
+            <contactPersonEmail>kusumacse54@gmail.com</contactPersonEmail>
+        </basic-info>
+        <sales-person-info>
+            <firstName>Kusuma</firstName>
+            <lastName>Pendem</lastName>
+            <internalCode>N/A</internalCode>
+        </sales-person-info>
+        <operations-unit-info>
+            <opsUnitName>Location1 - store1</opsUnitName>
+            <opsUnitCode>N/A</opsUnitCode>
+        </operations-unit-info>
+        <owner-officer-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>qew</firstName>
+                <lastName>qweqwe</lastName>
+                <phone>(213) 131-2323 x24234</phone>
+                <persTitle>President</persTitle>
+            </entry>
+        </owner-officer-info>
+        <billing-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>qew</firstName>
+                <lastName>qweqwe</lastName>
+                <phone>(213) 131-2323 x24234</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+                <addressLineOne>qwe</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>qweqw</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>12312</zipCode>
+            </entry>
+        </billing-info>
+        <shipping-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>qew</firstName>
+                <lastName>qweqwe</lastName>
+                <phone>(213) 131-2323 x24234</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+                <addressLineOne>qwe</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>qweqw</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>12312</zipCode>
+            </entry>
+        </shipping-info>
+        <apay-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>qew</firstName>
+                <lastName>qweqwe</lastName>
+                <phone>(213) 131-2323 x24234</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+            </entry>
+        </apay-info>
+        <page-2-info>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>MONTHLY STATEMENT REQUIRED?</name>
+                <value></value>
+                <valueCode>36825</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>SUBSIDIARY OF</name>
+                <value></value>
+                <valueCode>36819</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>CONTACT PERSON FOR PAYMENT</name>
+                <value></value>
+                <valueCode>36822</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>APPLICANT PROVINCIAL SALES TAX NO.</name>
+                <value></value>
+                <valueCode>36821</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>HAS YOUR COMPANY, OR ANYOF ITS OWNERS, PARTNERS, OR OFFICERS EVER FILED A VOLUNTARY PETITION IN BANKRUPTCY, BEEN ADJUGED BANKRUPT, OR MADE ASSIGNMENT FOR THE BENEFIT OF CREDITORS</name>
+                <value></value>
+                <valueCode>36824</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>APPLICANT GOODS AND SERVICE TAX NO.</name>
+                <value></value>
+                <valueCode>36820</valueCode>
+            </entry>
+            <entry>
+                <categoryCode>113</categoryCode>
+                <category>Additional Info</category>
+                <name>% OF SHARES WONED</name>
+                <value></value>
+                <valueCode>36823</valueCode>
+            </entry>
+        </page-2-info>
+        <credit-reference-info>
+            <entry>
+                <companyName>asds</companyName>
+                <addressLineOne>asd</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>asdas</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>asd</firstName>
+                <lastName>asd</lastName>
+                <phone>(123) 333-3333 x33333</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax>(123)-333-3333</fax>
+                <referenceType>BANK</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType>Checking</accountType>
+                <status>REMINDER</status>
+            </entry>
+            <entry>
+                <companyName>assa</companyName>
+                <addressLineOne>asda</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>asdad</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>asdas</firstName>
+                <lastName>asd</lastName>
+                <phone>(123) 123-1231 x23123</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax>(123)-123-1231</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER</status>
+            </entry>
+        </credit-reference-info>
+    </customer>
+</inbound-customer-data>

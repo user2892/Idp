@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.CusFsDetailBean" table="c_fsdetail">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+        <property name="headerId" type="long" column="headerId" />
+        <property name="statementType" type="string" column="statementType" />       
+        <property name="detailShortName" type="string" column="lineitemcode" />
+        <property name="value" type="double" column="lineitemvalue" />
+        
+    </class>
+
+</hibernate-mapping>

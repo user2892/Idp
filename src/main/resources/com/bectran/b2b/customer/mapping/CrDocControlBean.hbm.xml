@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.CrDocControlBean" table="c_credit_doc">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		
+		<property name="requestId" type="long" column="requestId" />		
+		<property name="docId" type="string" column="docId" />	
+		<property name="status" type="string" column="status" />	
+		<property name="acctNum" type="string" column="acctNum" />	
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />				
+
+
+    </class>
+
+</hibernate-mapping>
+
+  
+  
+  

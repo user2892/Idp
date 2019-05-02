@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.enterprise.beans.CreditRequestSummaryBean" table="c_creditapp">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+        <property name="acctNum" type="string" column="AcctNum" />
+        <property name="dunsNum" type="string" column="DunsNum" />
+        <property name="amount" type="big_decimal" column="Amount" />
+        <property name="dateCreated" type="timestamp" column="DateCreated" />
+        <property name="appDate" type="timestamp" column="AppDate" />
+        <property name="appId" type="string" column="AppId" />
+        <property name="lastUpdate" type="timestamp" column="LastUpdate" />
+        <property name="requestor" type="string" column="Requestor" />
+        <property name="status" type="string" column="Status" />       
+  		<property name="approvalDate" type="timestamp" column="ApprovalDate" />
+        <property name="approvedAmount" type="double" column="ApprovedAmt" />
+  	    <property name="reasonCode" type="string" column="reason_code" />
+        <property name="typeOfBusiness" type="string" column="TypeOfBusiness" />
+        <property name="styleOfBusiness" type="string" column="StyleOfBusiness" />
+        <property name="fedIdNum" type="string" column="FederalIDNumber" />
+        <property name="taxId" type="string" column="TaxId" />
+        <property name="yearEstablished" type="integer" column="YearEstablished" />
+        <property name="annualSales" type="double" column="AnnualSales" />
+        <property name="anticipatedMonthlyPurchase" type="double" column="MonthlyPurchase" />
+        <property name="experianFileNum" type="string" column="ExperianFileNum" />
+        <property name="fiscalYearEndMonth" type="string" column="FiscalYearEndMonth" />
+        <property name="fiscalYearEndDay" type="string" column="FiscalYearEndDay" />
+  		<property name="refCallCompleteFlag" type="string" column="ref_call_flag" />
+   		<property name="signatureName" type="string" column="signature_name" />
+  		<property name="signatureFlag" type="string" column="signature_flag" />
+  		<property name="adjRequestNote" type="string" column="adj_request_note" />
+       	<property name="manualApprovalId" type="string" column="man_approval_id" />
+       	<property name="cancelRequestReason" type="string" column="cancel_request_reason" />
+  		<property name="repaymentPeriod" type="integer" column="RepaymentPeriod" />    	
+		<property name="customerSupplierId" type="long" column="customerSupplierId" /> 		
+ 		<property name="refCallStatus" type="string" column="refCallStatus" />
+   		<property name="creditTerm" type="string" column="creditTerm" />
+  		<property name="orderPending" type="string" column="orderPending" />
+  		<property name="acctNumWithUs" type="string" column="acctNumWithUs" />
+  		<property name="orderAmount" type="double" column="orderAmount" />
+  		<property name="numOfEmployee" type="string"  column="numOfEmployee" />
+  		<property name="plannedMonthlyPurchase" type="string" column="plannedMonthlyPurchase" />
+		<property name="annualSalesRangeID" type="string" column="annualSalesRangeID" />	  		
+  		<property name="stateOfIncorporation" type="string" column="stateOfIncorporation" />	
+ 		<property name="signatureImage" type="binary" column="signatureImage" />
+ 		<property name="applicantTitle" type="string" column="applicantTitle" />
+ 		<property name="agreedToTerm" type="string" column="agreedToTerm" />
+ 		<property name="supplier" type="string" column="supplier" />      
+ 		<property name="supplierId" type="long" column="supplierId" /> 			
+ 		<property name="appAuthorization" type="string" column="appAuthorization" />
+		<property name="termsAndCondition" type="string" column="termsAndCondition" />
+		<property name="erefAuthorization" type="string" column="erefAuthorization" />		
+		<property name="companySizeCategory" type="string" column="companySizeCategory" />			
+
+		<property name="clientIPAddress" type="string" column="clientIPAddress" />	
+ 		<property name="acctWithUs" type="string" column="acctWithUs" />	
+		<property name="creditRequestTypeCode" type="string" column="creditRequestTypeCode" />	
+		
+			
+ 		<property name="creditDecision" type="string" column="creditDecision" />	
+		<property name="groupId" type="long" column="groupId" />
+
+ 		 		
+ 
+           
+            
+    </class>
+
+</hibernate-mapping>

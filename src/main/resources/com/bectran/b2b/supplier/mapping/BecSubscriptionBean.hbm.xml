@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.BecSubscriptionBean" table="s_sub">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="supplierId" type="long" column="supplierId" />	
+	
+
+		<property name="planCode" type="string" column="plan_code" />
+		<property name="currency" type="string" column="currency" />
+		<property name="beginingDate" type="timestamp" column="begining_date" />
+		<property name="endDate" type="timestamp" column="end_date" />		
+		<property name="lastUpdate" type="timestamp" column="lastupdate" />
+		<property name="fullPrice" type="double" column="full_price" />		
+		<property name="subStatus" type="string" column="sub_status" />
+		<property name="amountPaid" type="double" column="amount_paid" />		
+		<property name="discount" type="double" column="discount" />	
+		<property name="description" type="string" column="description" />	
+		<property name="renewalCount" type="integer" column="RenewalCount" />	
+		
+		<property name="price" type="double" column="price" />	
+		<property name="numOfApp" type="integer" column="numOfApp" />	
+		<property name="numOfUser" type="integer" column="numOfUser" />	
+		<property name="trialPeriod" type="integer" column="trialPeriod" />	
+		<property name="supportPlan" type="string" column="supportPlan" />	
+		
+		<property name="appCredit" type="integer" column="appCredit" />	
+		<property name="subscriptionType" type="string" column="subscriptionType" />															
+
+		<property name="planOptionType" type="string" column="planOptionType" />
+
+
+
+
+	</class>
+
+</hibernate-mapping>

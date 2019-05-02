@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.ManualRefAuditBean" table="s_manual_ref_audit">
+		<id name="creditRefHeaderId" type="long" column="creditRefHeaderId">
+			<generator class="assigned" />
+		</id>
+		<property name="supplierId" type="long" column="supplierId" />	
+		<property name="userId" type="string" column="userId" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+		
+		<property name="crolRefReqId"  type="long" column="crolRefReqId" />
+
+
+      <many-to-one name="officer" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+       insert="false" fetch="select" lazy="false">
+                <column name="userId" not-null="true" />
+      </many-to-one>   	
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.GroupCustomCreditAppModelBean" table="s_group_custom_app">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="groupId" type="long" column="groupId" />	
+		<property name="name" type="string" column="name" />	
+		<property name="dataType" type="string" column="dataType" />
+		<property name="dataLength" type="integer" column="dataLength" />
+		<property name="encryptData" type="string" column="encryptData" />
+		<property name="listType" type="string" column="listType" />
+		<property name="required" type="string" column="required" />
+		<property name="displayOrder" type="integer" column="displayOrder" />
+		<property name="catId" type="long" column="catId" />
+		<property name="code" type="string" column="code" />
+		
+		<property name="formType" type="string" column="formType" />
+		<property name="formTypeId" type="string" column="formTypeId" />
+				
+         <set name="listContentSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                 <column name="headerId"  not-null="true" />
+            </key>
+             <one-to-many class="com.bectran.b2b.supplier.beans.GroupCustomCreditAppListContentBean"/>
+        </set>
+        
+           <many-to-one name="categoryBean" class="com.bectran.b2b.supplier.beans.GroupCustomAppCategoryBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="catId" not-null="true" />
+        </many-to-one>       
+        
+	</class>
+
+</hibernate-mapping>
+

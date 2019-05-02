@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.InternalCusCreditInfoBean" table="zs_cust_credit_acct">
+      	<id name="id" type="string" column="id">
+			<generator class="assigned" />
+		</id>  
+	<property name="supplierId" type="long" column="supplierId" />			
+	<property name="accountNum" type="string" column="accountNum" />
+
+	<property name="dateApproved" type="timestamp" column="dateApproved" />
+
+	<property name="creditLine" type="double" column="creditLine" />
+	<property name="balance" type="double" column="balance" />
+
+	<property name="term" type="string" column="term" />	
+	
+    </class>
+
+</hibernate-mapping>

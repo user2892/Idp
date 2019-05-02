@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.CustomerDatatStgBean" table="zs_stg_cus_data">
+      	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>  
+		
+	<property name="supplierId" type="long" column="supplierId" />	
+	<property name="loadDate" type="timestamp" column="loadDate" />		
+	<property name="processFlag" type="string" column="processFlag" />
+	<property name="xmldata" type="string" column="xmldata" />
+	<property name="cusDataType" type="string" column="cusDataType" />
+	
+	
+    </class>
+
+</hibernate-mapping>

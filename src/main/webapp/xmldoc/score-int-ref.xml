@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score-explanation-ref>
+	<entry>
+		<range-code>X1</range-code>
+		<range-value>1</range-value>
+		<lower-bound>-99.00</lower-bound>
+		<upper-bound>1.5001</upper-bound>
+		<risk-rating>r1</risk-rating>
+		<risk-level>Very High Risk</risk-level>
+		<explanation>
+		Customer is perceived to be a very high credit risk.  A very high credit risk is a strong indication that the customer may be experiencing severe financial difficulties and may be unfit to be extended further credit facilities.  
+		</explanation>
+
+	</entry>
+	<entry>
+		<range-code>X2</range-code>
+		<range-value>2</range-value>
+		<lower-bound>1.5001</lower-bound>
+		<upper-bound>2.5001</upper-bound>
+		<risk-rating>r2</risk-rating>
+		<risk-level>High Risk</risk-level>
+		<explanation>
+		Customer is perceived to be a high credit risk.  A high credit risk is a strong indication that the customer may repeat observed high risk profile in subsequent credit transactions.
+		</explanation>
+
+	</entry>
+	<entry>
+		<range-code>X3</range-code>
+		<range-value>3</range-value>
+		<lower-bound>2.5001</lower-bound>
+		<upper-bound>3.5001</upper-bound>
+		<risk-rating>r3</risk-rating>
+		<risk-level>Zone of Caution</risk-level>
+		<explanation>
+		Customer is perceived to be in the zone of caution. The customer's risk profile may shift in either direction (low risk or high risk). The details of the score sheet will provide the areas of weakness to watch out for.
+		</explanation>
+
+	</entry>
+	<entry>
+		<range-code>X4</range-code>
+		<range-value>4</range-value>
+		<lower-bound>3.5001</lower-bound>
+		<upper-bound>4.5001</upper-bound>
+		<risk-rating>r4</risk-rating>
+		<risk-level>Low risk</risk-level>
+		<explanation>
+		Customer is perceived to be low credit risk.  A low credit risk is a strong indication that the customer may maintain a low risk profile on the next credit transaction.
+		</explanation>
+
+	</entry>
+	<entry>
+		<range-code>X5</range-code>
+		<range-value>5</range-value>
+		<lower-bound>4.5001</lower-bound>
+		<upper-bound>5.99</upper-bound>
+		<risk-rating>r5</risk-rating>
+		<risk-level>Very Low risk</risk-level>
+		<explanation>
+		Customer is perceived to be very low credit risk.  This customer is most likely an excellent payer and a very good credit risk. 
+		</explanation>
+
+	</entry>
+</score-explanation-ref>

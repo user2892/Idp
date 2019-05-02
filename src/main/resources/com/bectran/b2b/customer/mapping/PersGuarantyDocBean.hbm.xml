@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.PersGuarantyDocBean" table="c_persgty_doc">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		
+		<property name="requestId" type="long" column="requestId" />		
+		<property name="docControlId" type="long" column="docControlId" />	
+		<property name="status" type="string" column="status" />	
+		<property name="acctNum" type="string" column="acctNum" />	
+		<property name="docBody" type="string" column="docBody" />	
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />				
+
+		<property name="docBodyPart2" type="string" column="docBodyPart2" />	
+
+        <set name="guarantorSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                 <column name="documentId"  not-null="true" />
+            </key>
+             <one-to-many class="com.bectran.b2b.customer.beans.PersGuarantorBean"/>
+        </set>          
+           
+
+    </class>
+
+</hibernate-mapping>
+
+  
+  
+  

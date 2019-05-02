@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inbound-customer-data xmlns="http://www.bectran.com/">
+    <customer account-id="TN20160118532" transaction-id="9100">
+        <business-group-info>
+            <groupName>Ludus</groupName>
+            <internalGroupCode></internalGroupCode>
+            <bectranReferenceId>97</bectranReferenceId>
+        </business-group-info>
+        <basic-info>
+            <addressLineOne>CA</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <annualSalesRange>USD 10-20</annualSalesRange>
+            <bectranCustomerId>TN20160118532</bectranCustomerId>
+            <city>CA</city>
+            <contactPersonFirstName>sdfds</contactPersonFirstName>
+            <contactPersonLastName>sdf</contactPersonLastName>
+            <contactPersonPhone>(234) 242-3423</contactPersonPhone>
+            <contactPersonTitle>President</contactPersonTitle>
+            <countryId>US</countryId>
+            <customerDbaName>Bec</customerDbaName>
+            <customerLegalName>Test</customerLegalName>
+            <dateCreatedInBectran>2016-04-28</dateCreatedInBectran>
+            <dunsNumber></dunsNumber>
+            <fax></fax>
+            <federalTaxId></federalTaxId>
+            <numOfEmployee>10-20</numOfEmployee>
+            <phone>(122) 233-3333 x33333</phone>
+            <state>CA</state>
+            <stateOfIncorporation>CA</stateOfIncorporation>
+            <styleOfBusiness>private</styleOfBusiness>
+            <typeOfBusiness>reseller</typeOfBusiness>
+            <yearEstablished>2000</yearEstablished>
+            <zipCode>12312323</zipCode>
+            <contactPersonEmail>kusuma.pendem@bectran.com</contactPersonEmail>
+        </basic-info>
+        <sales-person-info>
+            <firstName>Sculbert</firstName>
+            <lastName>John</lastName>
+            <internalCode>N/A</internalCode>
+        </sales-person-info>
+        <operations-unit-info>
+            <opsUnitName>DIV1 - U2</opsUnitName>
+            <opsUnitCode>N/A</opsUnitCode>
+        </operations-unit-info>
+        <owner-officer-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>Test Bectran</firstName>
+                <lastName>App</lastName>
+                <phone>(112) 222-2223 x23232</phone>
+                <persTitle>Owner/Proprietor</persTitle>
+            </entry>
+        </owner-officer-info>
+        <billing-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>kusuma</firstName>
+                <lastName>p</lastName>
+                <phone>(112) 222-2223 x23232</phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax></fax>
+                <addressLineOne>California</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>CA</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>11222232</zipCode>
+            </entry>
+        </billing-info>
+        <shipping-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>kusuma</firstName>
+                <lastName>p</lastName>
+                <phone>(112) 222-2223 x23232</phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax></fax>
+                <addressLineOne>California</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>CA</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>11222232</zipCode>
+            </entry>
+        </shipping-info>
+        <apay-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>kusuma</firstName>
+                <lastName>p</lastName>
+                <phone>(112) 222-2223 x23232</phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax></fax>
+            </entry>
+        </apay-info>
+        <custom-doc-info>
+            <entry>
+                <id>724</id>
+                <name>Sales Upload Doc</name>
+                <date>2016-04-28 02:20:39.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160118532_20160428022039_724SalesUploa.pdf</docImageUrl>
+            </entry>
+            <entry>
+                <id>725</id>
+                <name>FS</name>
+                <date>2016-04-28 02:20:53.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160118532_20160428022053_725FS.pdf</docImageUrl>
+            </entry>
+            <entry>
+                <id>726</id>
+                <name>Sale Doc Upload</name>
+                <date>2016-04-28 02:21:03.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160118532_20160428022103_726SaleDocUpl.pdf</docImageUrl>
+            </entry>
+        </custom-doc-info>
+    </customer>
+</inbound-customer-data>

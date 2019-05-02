@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.CrApprovalBean" table="zs_credit_approval">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="native" />
+		</id>  
+		
+	<property name="supplierId" type="long" column="supplierId" />	
+	<property name="requestId" type="long" column="requestId" />	
+
+	<property name="appId" type="string" column="appId" />
+	<property name="rating" type="string" column="rating" />
+	<property name="approvedLimit" type="big_decimal" column="approvedLimit" />
+	<property name="approvalDate" type="timestamp" column="approvalDate" />						
+	
+	<property name="termCodeId" type="string" column="termCodeId" />
+	<property name="termCode" type="string" column="termCode" />
+	<property name="termDescription" type="string" column="termDescription" />
+	<property name="acctNumId" type="string" column="acctNumId" />
+	<property name="acctNum" type="string" column="acctNum" />					
+
+
+	<property name="transmittedFlag" type="string" column="transmittedFlag" />	
+	<property name="userId" type="string" column="userId" />	
+	<property name="analystComment" type="string" column="analystComment" />
+	<property name="status" type="string" column="status" />	
+	<property name="bectranAcctNum" type="string" column="bectranAcctNum" />	
+	<property name="customerName" type="string" column="customerName" />		
+	
+	<property name="riskRating" type="string" column="riskRating" />
+	<property name="riskRatingClass" type="string" column="riskRatingClass" />	
+		
+	<property name="numApprovingOfficer" type="integer" column="numApprovingOfficer" />	
+	<property name="trxnBatchControlToken" type="string" column="trxnBatchControlToken" />		
+
+     <many-to-one name="customer" class="com.bectran.b2b.customer.beans.CustomerBean" update="false"
+      insert="false" fetch="select" lazy="false">
+               <column name="bectranAcctNum" not-null="true" />
+     </many-to-one>     
+     
+     <many-to-one name="analyst" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+      insert="false" fetch="select" lazy="false">
+               <column name="userId" not-null="true" />
+     </many-to-one>  
+     
+        <set name="officerSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                 <column name="headerId"  not-null="true" />
+            </key>
+             <one-to-many class="com.bectran.b2b.enterprise.beans.ApprovingOfficerBean"/>
+        </set>     
+           
+     <many-to-one name="creditRequestSummary" class="com.bectran.b2b.enterprise.beans.CreditRequestSummaryBean" update="false"
+      insert="false" fetch="select" lazy="false">
+               <column name="requestId" not-null="true" />
+     </many-to-one>            
+           
+           
+	</class>
+
+</hibernate-mapping>

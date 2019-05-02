@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.BillPayHistBean" table="s_bill_pay_hist">
+
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>		
+	<property name="profileId" type="string" column="profileId" />
+	<property name="paymentDate" type="timestamp" column="paymentDate" />
+	<property name="amountPaid" type="double" column="amountPaid" />		
+	<property name="txnId" type="string" column="txnId" />
+		
+    </class>
+
+</hibernate-mapping>

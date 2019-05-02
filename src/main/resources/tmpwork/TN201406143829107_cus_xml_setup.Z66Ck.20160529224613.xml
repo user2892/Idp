@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inbound-customer-data xmlns="http://www.bectran.com/">
+    <customer account-id="TN20160419862" transaction-id="9107">
+        <business-group-info>
+            <groupName>Ludus</groupName>
+            <internalGroupCode></internalGroupCode>
+            <bectranReferenceId>97</bectranReferenceId>
+        </business-group-info>
+        <basic-info>
+            <addressLineOne>sdfs</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <annualSalesRange>UNKNOWN</annualSalesRange>
+            <bectranCustomerId>TN20160419862</bectranCustomerId>
+            <city>sdf</city>
+            <contactPersonFirstName>qew</contactPersonFirstName>
+            <contactPersonLastName>qweqwe</contactPersonLastName>
+            <contactPersonPhone>(213) 131-2323 x24234</contactPersonPhone>
+            <contactPersonTitle>President</contactPersonTitle>
+            <countryId>US</countryId>
+            <customerDbaName>dsf</customerDbaName>
+            <customerLegalName>sfsd</customerLegalName>
+            <dateCreatedInBectran>2016-04-28</dateCreatedInBectran>
+            <dunsNumber></dunsNumber>
+            <fax></fax>
+            <federalTaxId></federalTaxId>
+            <numOfEmployee>Less than 10 employees</numOfEmployee>
+            <phone>(123) 123-1233 x23123</phone>
+            <state>CA</state>
+            <stateOfIncorporation>AL</stateOfIncorporation>
+            <styleOfBusiness>Sales</styleOfBusiness>
+            <typeOfBusiness>Partnership</typeOfBusiness>
+            <yearEstablished>0</yearEstablished>
+            <zipCode>12313</zipCode>
+            <contactPersonEmail>kusumacse54@gmail.com</contactPersonEmail>
+        </basic-info>
+        <sales-person-info>
+            <firstName>Sculbert</firstName>
+            <lastName>John</lastName>
+            <internalCode>N/A</internalCode>
+        </sales-person-info>
+        <operations-unit-info>
+            <opsUnitName>DIV1 - U1</opsUnitName>
+            <opsUnitCode>N/A</opsUnitCode>
+        </operations-unit-info>
+        <owner-officer-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>asd</firstName>
+                <lastName>asda</lastName>
+                <phone>(321) 111-1111 x11111</phone>
+                <persTitle>Treasurer</persTitle>
+            </entry>
+        </owner-officer-info>
+        <billing-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>asd</firstName>
+                <lastName>asda</lastName>
+                <phone>(321) 111-1111 x11111</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+                <addressLineOne>sdfs</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>sdf</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>12313</zipCode>
+            </entry>
+        </billing-info>
+        <shipping-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>asd</firstName>
+                <lastName>asda</lastName>
+                <phone>(321) 111-1111 x11111</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+                <addressLineOne>sdfs</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>sdf</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>12313</zipCode>
+            </entry>
+        </shipping-info>
+        <apay-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>asd</firstName>
+                <lastName>asda</lastName>
+                <phone>(321) 111-1111 x11111</phone>
+                <email>kusumacse54@gmail.com</email>
+                <fax></fax>
+            </entry>
+        </apay-info>
+        <credit-reference-info>
+            <entry>
+                <companyName>trade1</companyName>
+                <addressLineOne></addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city></city>
+                <state>AL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName></firstName>
+                <lastName></lastName>
+                <phone>(121) 212-1212</phone>
+                <email>s@gmail.com</email>
+                <fax></fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER</status>
+            </entry>
+            <entry>
+                <companyName>sfsdf</companyName>
+                <addressLineOne></addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city></city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>tr</firstName>
+                <lastName>ewfe</lastName>
+                <phone></phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax>(231) 243-2423</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER</status>
+            </entry>
+            <entry>
+                <companyName>trade1</companyName>
+                <addressLineOne></addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city></city>
+                <state>AL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>ftr</firstName>
+                <lastName>fh</lastName>
+                <phone>(121) 212-1212</phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax>(342) 434-3534</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>RECEIVED</status>
+                <credit-reference-response-info>
+                    <entry>
+                        <attribute>Overall rating</attribute>
+                        <value>Satisfactory</value>
+                        <weaknessFactor>21</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Highest Balance(over the last 12 months)</attribute>
+                        <value>$0 - $5,000</value>
+                        <weaknessFactor>11</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Credit Terms / Terms of sale</attribute>
+                        <value>Cash</value>
+                        <weaknessFactor>11</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Years in business with buyer</attribute>
+                        <value>Under 1 year</value>
+                        <weaknessFactor>8</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Credit limit</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>4</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Current Outstanding Balance</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>4</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Returned / Dishonored checks â€“ NSF?</attribute>
+                        <value>NO</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Payment Experience</attribute>
+                        <value>Prompt: 0-5 days late</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Balance Past Due</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Date of last sale</attribute>
+                        <value>0-30 days ago</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                </credit-reference-response-info>
+            </entry>
+            <entry>
+                <companyName>trade1</companyName>
+                <addressLineOne></addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city></city>
+                <state>AL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>sdf</firstName>
+                <lastName>sd</lastName>
+                <phone>(121) 212-1212</phone>
+                <email>kusuma.pendem@bectran.com</email>
+                <fax>(243) 333-3333</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>CANCELED</status>
+            </entry>
+            <entry>
+                <companyName>sfsd</companyName>
+                <addressLineOne>sdfs</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>sdfs</city>
+                <state>CA</state>
+                <countryId>US</countryId>
+                <zipCode>1233</zipCode>
+                <firstName>sfd</firstName>
+                <lastName>sdfds</lastName>
+                <phone></phone>
+                <email>NOEMAIL</email>
+                <fax></fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>RECEIVED</status>
+                <credit-reference-response-info>
+                    <entry>
+                        <attribute>Overall rating</attribute>
+                        <value>Satisfactory</value>
+                        <weaknessFactor>21</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Highest Balance(over the last 12 months)</attribute>
+                        <value>$0 - $5,000</value>
+                        <weaknessFactor>11</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Credit Terms / Terms of sale</attribute>
+                        <value>Cash</value>
+                        <weaknessFactor>11</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Years in business with buyer</attribute>
+                        <value>Under 1 year</value>
+                        <weaknessFactor>8</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Credit limit</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>4</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Current Outstanding Balance</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>4</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Returned / Dishonored checks â€“ NSF?</attribute>
+                        <value>NO</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Payment Experience</attribute>
+                        <value>Prompt: 0-5 days late</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Balance Past Due</attribute>
+                        <value>USD 0</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                    <entry>
+                        <attribute>Date of last sale</attribute>
+                        <value>0-30 days ago</value>
+                        <weaknessFactor>0</weaknessFactor>
+                    </entry>
+                </credit-reference-response-info>
+            </entry>
+        </credit-reference-info>
+        <custom-doc-info>
+            <entry>
+                <id>727</id>
+                <name>Sales Upload Doc</name>
+                <date>2016-04-28 06:20:30.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160419862_20160428062030_727SalesUploa.pdf</docImageUrl>
+            </entry>
+            <entry>
+                <id>728</id>
+                <name>FS</name>
+                <date>2016-04-28 06:20:43.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160419862_20160428062043_728FS.pdf</docImageUrl>
+            </entry>
+            <entry>
+                <id>729</id>
+                <name>Sale Doc Upload</name>
+                <date>2016-04-28 06:20:56.0</date>
+                <documentType>pdf</documentType>
+                <docImageUrl>G_TN20160419862_20160428062056_729SaleDocUpl.pdf</docImageUrl>
+            </entry>
+        </custom-doc-info>
+    </customer>
+</inbound-customer-data>

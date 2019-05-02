@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.AcctPayableInfoBean" table="c_apayable_info">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+
+        <property name="acctNum" type="string" column="AcctNum" />
+		<property name="firstName" type="string" column="firstName" />
+		<property name="lastName" type="string" column="lastName" />
+		<property name="phone" type="string" column="phone" />
+		<property name="email" type="string" column="email" />
+		<property name="persTitle" type="string" column="persTitle" />
+		<property name="fax" type="string" column="fax" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+		<property name="salutation" type="string" column="salutation" />
+		<property name="dateCreated" type="timestamp" column="DateCreated" />
+ 		<property name="addressLineOne" type="string" column="addressLineOne" />
+		<property name="addressLineTwo" type="string" column="addressLineTwo" />
+		<property name="city" type="string" column="city" />
+		<property name="countryId" type="string" column="countryId" />
+		<property name="state" type="string" column="state" />
+		<property name="zipCode" type="string" column="zipCode" />		
+		
+	
+    </class>
+
+</hibernate-mapping>
+
+  
+  
+  

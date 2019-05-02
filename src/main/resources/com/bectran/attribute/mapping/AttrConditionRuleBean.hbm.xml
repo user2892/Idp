@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.attribute.beans.AttrConditionRuleBean"
+        table="af_attr_condition_rule">
+        <id name="attributeDefID" type="long" column="attributeDefID">
+            <generator class="assigned" />
+        </id>
+        <property name="type" type="int" column="condType" />
+        <property name="match" type="int" column="condMatch" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+        <set name="attrMatchRuleSet" inverse="true" lazy="false"
+            cascade="all">
+            <key>
+                <column name="targetAttributeDefID" not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.attribute.beans.AttrMatchRuleBean" />
+        </set>
+    </class>
+</hibernate-mapping>

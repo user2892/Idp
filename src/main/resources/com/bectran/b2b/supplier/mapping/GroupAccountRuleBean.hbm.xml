@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.GroupAccountRuleBean" table="s_group_acct_rule">
+		<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+		
+		<property name="groupRule" type="string" column="groupRule" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+		<property name="groupSearchScope" type="string" column="groupSearchScope" />
+		
+		<property name="enterpriseIntegrationScope" type="string" column="enterpriseIntegrationScope" />
+		
+	
+	</class>
+
+</hibernate-mapping>
+

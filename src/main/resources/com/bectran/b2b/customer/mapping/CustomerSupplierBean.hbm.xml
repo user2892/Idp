@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.b2b.customer.beans.CustomerSupplierBean" table="c_customer_supplier">
+     	<id name="id" type="long" column="SequenceNum">
+				<generator class="native" />
+		</id>
+		
+		<property name="customerAcctNum" type="string" column="acctNum" />		
+	
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />									
+		<property name="supplierId" type="long" column="supplierId" />		
+		
+		<property name="acctNumWithUs" type="string" column="acctNumWithUs" />		
+        
+    </class>
+
+</hibernate-mapping>

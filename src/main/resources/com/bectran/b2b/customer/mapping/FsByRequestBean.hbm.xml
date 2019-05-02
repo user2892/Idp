@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.FsByRequestBean" table="c_fs_byreq">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		
+		<property name="docControlId" type="long" column="docControlId" />	
+		<property name="status" type="string" column="status" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+   		<property name="fsHeaderId" type="long" column="fsHeaderId" />    
+   		<property name="requestId" type="long" column="requestId" />
+   		
+        <many-to-one name="fsHeaderBean" class="com.bectran.b2b.customer.beans.CusFsHeaderBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="fsHeaderId" not-null="true" />
+        </many-to-one>    				
+
+    </class>
+
+</hibernate-mapping>
+
+  
+  
+  

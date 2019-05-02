@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ 
+   <class name="com.bectran.b2b.customer.beans.TaxExemptCertBean" table="c_taxexempt_cert">
+     	<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		
+		<property name="customerSupplierId" type="long" column="customerSupplierId" />	
+		<property name="status" type="string" column="status" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+        <property name="stateCode" type="string" column="stateCode" />
+		<property name="stateName" type="string" column="stateName" />
+		<property name="localJurisdiction" type="string" column="localJurisdiction" />		
+		<property name="certImage" type="binary" column="certImage" />		
+        
+		<property name="certNum" type="string" column="certNum" />
+		<property name="expiration" type="timestamp" column="expiration" />	 	
+		<property name="deleteFlag" type="string" column="deleteFlag" />	
+		<property name="lastUpdateRequestDate" type="timestamp" column="lastUpdateRequestDate" />			
+		<property name="flaggedForUpdate" type="string" column="flaggedForUpdate" />	
+				
+		<property name="docFileSystemName" type="string" column="docFileSystemName" />	
+		<property name="fileType" type="string" column="fileType" />
+		<property name="fileExt" type="string" column="fileExt" />		
+		
+		<property name="expirationDateRqd" type="string" column="expirationDateRqd" />	
+		
+		<property name="groupId" type="long" column="groupId" />	
+
+<!--  		
+         <many-to-one name="customerSupplier" class="com.bectran.b2b.customer.beans.CustomerSupplierBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="customerSupplierId" not-null="true" />
+        </many-to-one>  			
+-->
+
+    </class>
+
+</hibernate-mapping>
+
+  
+  
+    

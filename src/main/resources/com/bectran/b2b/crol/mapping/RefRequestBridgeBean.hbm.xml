@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.b2b.crol.beans.RefRequestBridgeBean"
+        table="bg_refrequest">
+        <id name="id" type="long" column="id">
+            <generator class="native" />
+        </id>
+        <property name="refForReqId" type="long" column="refForReqId" />
+        <property name="crolRefReqId" type="long" column="crolRefReqId" />
+        <property name="creditAppId" type="long" column="creditAppId" />
+        <property name="status" type="string" column="status" />
+        <property name="dateCreated" type="timestamp" column="dateCreated" />
+        <property name="dateClosed" type="timestamp" column="dateClosed" />
+        <property name="reminderCount" type="integer" column="reminderCount" />
+        <property name="callStatus" type="string" column="callStatus" />
+        <property name="lastActivity" type="timestamp" column="lastActivity" />
+        <property name="customerAcctNum" type="string" column="customerAcctNum" />
+        <property name="supplierId" type="long" column="supplierId" />
+        <many-to-one name="crolRequest"
+            class="com.bectran.b2b.crol.beans.CrolRequestBean" update="false"
+            insert="false" fetch="select" lazy="false">
+            <column name="crolRefReqId" not-null="true" />
+        </many-to-one>
+        <many-to-one name="refForRequest"
+            class="com.bectran.b2b.customer.beans.RefForRequestBean"
+            update="false" insert="false" fetch="select" lazy="false">
+            <column name="refForReqId" not-null="true" />
+        </many-to-one>
+        <many-to-one name="creditApp"
+            class="com.bectran.b2b.customer.beans.PastCreditAppBean"
+            update="false" insert="false" fetch="select" lazy="false">
+            <column name="creditAppId" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

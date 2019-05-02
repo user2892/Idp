@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.GroupAccountBean" table="s_group_acct">
+		<id name="id" type="long" column="id">
+			<generator class="native" />
+		</id>
+		<property name="supplierId" type="long" column="supplierId" />	
+		<property name="businessGroupName" type="string" column="businessGroupName" />	
+		<property name="userId" type="string" column="userId" />
+		<property name="termsAndCondition" type="binary" column="termsAndCondition" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+		
+		<property name="primaryGroup" type="string" column="primaryGroup" />
+		<property name="creditAppSecuredLinkCode" type="string" column="creditAppSecuredLinkCode" />
+		<property name="customCreditApp" type="string" column="customCreditApp" />		
+		<property name="customAppStatus" type="string" column="customAppStatus" />	
+		<property name="companyLogo" type="binary" column="companyLogo" />		
+		<property name="groupType" type="string" column="groupType" />
+		<property name="name" type="string" column="name" />	
+		
+		<property name="internalGroupCode" type="string" column="internalGroupCode" /> 
+
+      <many-to-one name="groupContact" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+       insert="false" fetch="select" lazy="false">
+                <column name="userId" not-null="true" />
+      </many-to-one>   	
+
+       
+	</class>
+
+</hibernate-mapping>

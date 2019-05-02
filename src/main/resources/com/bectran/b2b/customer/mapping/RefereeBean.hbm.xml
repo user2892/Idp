@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.RefereeBean" table="c_refereedetail">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+
+ 		<property name="address1" type="string" column="Addr1" />
+		<property name="address2" type="string" column="Addr2" />
+		<property name="city" type="string" column="City" />
+		<property name="state" type="string" column="State" />
+		<property name="zip" type="string" column="Zip" />
+		<property name="phoneNum" type="string" column="PhoneNbr" />
+		<property name="faxNum" type="string" column="FaxNbr" />	
+		<property name="email" type="string" column="EMail" />			
+		<property name="country" type="string" column="Country" />	
+		<property name="lastUpdate" type="timestamp" column="LastUpdate" />	
+		<property name="webAddress" type="string" column="WebAddress" />	
+		<property name="name" type="string" column="Referee" />	
+		<property name="contactPerson" type="string" column="ContPerson" />	
+		<property name="crolCompanyId" type="string" column="Crol_Id" />	
+
+        <property name="sectorId" type="string" column="SectorId" />
+        <property name="industryId" type="string" column="IndustryId" />    
+ 
+        <property name="lockUpdate" type="string" column="lockUpdate" />    
+        					
+	    <set name="refContactSET" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                <column name="RefId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.customer.beans.RefContactBean"/>
+        </set>  							
+	
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.attribute.beans.AttributeGroupBean"
+        table="af_attribute_group">
+        <id column="attributeGroupID" name="attributeGroupID" type="long">
+            <generator class="native" />
+        </id>
+        <property name="name" type="string" column="name" />
+        <property name="description" type="string" column="description" />
+        <property name="showOrder" type="int" column="showOrder" />
+        <property name="accessType" type="int" column="accessType" />
+        <property name="flags" type="int" column="flags" />
+        <property name="params" type="string" column="params" />
+        <property name="supplierID" type="long" column="supplierID" />
+        <property name="groupID" type="long" column="groupID" />
+        <property name="appType" type="string" column="appType" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+        <property name="status" type="string" column="status" />
+        <property name="preQualReq" type="string" column="preQualReq" />
+        <set name="attributes" inverse="true" lazy="false" cascade="all">
+            <key>
+                <column name="attributeGroupID" not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.attribute.beans.AttributeDefBean" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.AcctRefereeBean" table="c_acctreferee">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+
+        <property name="acctNum" type="string" column="AcctNum" />
+        <property name="refereeId" type="long" column="RefereeId" />
+        <property name="refereeContactId" type="long" column="RefContactId" />
+ 		<property name="lastUpdate" type="timestamp" column="LastUpdate" />
+ 		<property name="refereeStatus" type="string" column="RefereeStatus" />
+ 		
+
+        <many-to-one name="referee" class="com.bectran.b2b.customer.beans.RefereeBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="RefereeId" not-null="true" />
+        </many-to-one>  
+        <many-to-one name="refereeContact" class="com.bectran.b2b.customer.beans.RefContactBean" update="false"
+         insert="false" fetch="select" lazy="false">
+                  <column name="RefContactId" not-null="true" />
+        </many-to-one>  
+        
+    </class>
+
+</hibernate-mapping>

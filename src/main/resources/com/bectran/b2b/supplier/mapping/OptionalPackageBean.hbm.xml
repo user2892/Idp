@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.OptionalPackageBean" table="s_optional_pkg">
+		<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+
+		<property name="supplierId" type="long" column="supplierId" />
+		<property name="upgradeFailed" type="string" column="upgradeFailed" />		
+		<property name="upgradeFailedDate" type="timestamp" column="upgradeFailedDate" />		
+		<property name="dateCreated" type="timestamp" column="dateCreated" />
+		<property name="cost" type="double" column="cost" />			
+
+	</class>
+
+</hibernate-mapping>

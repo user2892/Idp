@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.matrix.framework.email.EmailMsgBean" table="emailstore" >
+
+   	
+     	<id name="id" type="long" column="id">
+			<generator class="native" /> 
+		</id>
+    
+        <property name="fromAddress"  type="string" column="from_address" />	
+        <property name="copyAddress"  type="string" column="copy_address" />	
+        <property name="senderName"  type="string" column="sender_name" />	
+      
+        <property name="toAddress"  type="string" column="to_address" />	
+        <property name="mailTitle"  type="string" column="mail_title" />	
+        <property name="mailBody"  type="string" column="mail_body" />	
+        <property name="sendStatus"  type="string" column="send_status" />	
+        <property name="messageType"  type="string" column="message_type" />	
+        <property name="trialCount"   column="trial_count" />	
+        <property name="emailResendProcess"  type="string" column="resend_process" />
+        <property name="emailCategory"  type="string" column="email_category" />
+      	  
+   		<property name="toAddressList"  type="string" column="to_address_list" />      	     
+        <property name="copyAddressList"  type="string" column="copy_address_list" />	
+        
+    </class>
+
+</hibernate-mapping>

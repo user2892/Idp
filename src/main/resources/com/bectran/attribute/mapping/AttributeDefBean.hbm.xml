@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bectran.attribute.beans.AttributeDefBean"
+        table="af_attribute_def">
+        <id column="attributeDefID" name="attributeDefID" type="long">
+            <generator class="native" />
+        </id>
+        <property name="name" type="string" column="name" />
+        <property name="description" type="string" column="description" />
+        <property name="defaultValue" type="string" column="defaultValue" />
+        <property name="attributeGroupID" type="long"
+            column="attributeGroupID" />
+        <property name="attributeTypeID" type="int" column="attributeTypeID" />
+        <property name="accessType" type="int" column="accessType" />
+        <property name="required" type="boolean" column="required" />
+        <property name="multiple" type="boolean" column="multiple" />
+        <property name="showOrder" type="int" column="showOrder" />
+        <property name="toolTip" type="string" column="toolTip" />
+        <property name="mask" type="string" column="mask" />
+        <property name="supplierID" type="long" column="supplierID" />
+        <property name="groupID" type="long" column="groupID" />
+        <property name="createdBy" type="string" column="createdBy" />
+        <property name="createdDate" type="timestamp" column="createdDate" />
+        <property name="modifiedBy" type="string" column="modifiedBy" />
+        <property name="modifiedDate" type="timestamp" column="modifiedDate" />
+        <property name="status" type="string" column="status" />
+        <property name="internalCode" type="string" column="internalCode" />
+        <set name="listValueSet" inverse="true" lazy="false"
+            cascade="all">
+            <key>
+                <column name="attributeDefID" not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.attribute.beans.ListValueBean" />
+        </set>
+        <one-to-one name="attrConditionRuleBean"
+            class="com.bectran.attribute.beans.AttrConditionRuleBean"
+            lazy="false" />
+    </class>
+</hibernate-mapping>

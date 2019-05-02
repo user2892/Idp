@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.supplier.beans.PayPalPmtOptionalPkgBean" table="s_paypal_opkg_pmt">
+      	<id name="supplierId" type="long" column="supplierId">
+			<generator class="assigned" />
+		</id>  
+		
+	<property name="firstName" type="string" column="firstName" />
+	<property name="lastName" type="string" column="lastName" />	
+	<property name="itemNumber" type="string" column="itemNumber" />	
+	<property name="itemName" type="string" column="itemName" />
+	<property name="transactionType" type="string" column="transactionType" />
+	<property name="profileId" type="string" column="profileId" />
+	<property name="payerEmail" type="string" column="payerEmail" />							
+	<property name="paymentDate" type="string" column="paymentDate" />
+	<property name="payerId" type="string" column="payerId" />
+	<property name="paymentStatus" type="string" column="paymentStatus" />
+	
+	<property name="paymentGross" type="double" column="paymentGross" />
+	<property name="paymentFee" type="double" column="paymentFee" />
+	
+	<property name="buttonId" type="string" column="buttonId" />
+	
+    </class>
+
+</hibernate-mapping>

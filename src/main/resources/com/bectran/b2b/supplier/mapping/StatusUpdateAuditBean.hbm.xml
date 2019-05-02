@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.StatusUpdateAuditBean" table="s_status_update_audit">
+		<id name="requestId" type="long" column="requestId">
+			<generator class="assigned" />
+		</id>
+		<property name="supplierId" type="long" column="supplierId" />	
+		<property name="userId" type="string" column="userId" />
+		<property name="lastUpdate" type="timestamp" column="lastUpdate" />
+		
+		<property name="statusId"  type="string" column="statusId" />
+		<property name="updateComment"  type="string" column="updateComment" />
+
+
+      <many-to-one name="officer" class="com.bectran.b2b.supplier.beans.SupplierUserBean" update="false"
+       insert="false" fetch="select" lazy="false">
+                <column name="userId" not-null="true" />
+      </many-to-one>   	
+      
+          <set name="docChecklistSet"  lazy="false"  cascade="all" >
+            <key>
+                <column name="headerId"  not-null="true" />
+            </key>
+            <one-to-many class="com.bectran.b2b.supplier.beans.DocumentCheckListBean"/>
+        </set>        
+      
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.opsmgt.beans.OpsUnitRequestMgtBean" table="ops_unit_reqmgnt">
+		
+     	<id name="id" type="long" column="id">
+				<generator class="assigned" />
+		</id>  
+
+	<property name="opsUnitId" type="long" column="opsUnitId" />		
+	<property name="lastUpdate" type="timestamp" column="lastUpdate" />	
+	
+	    <many-to-one name="OpsUnitBean" class="com.bectran.opsmgt.beans.OpsUnitDefinitionBean" update="false"   insert="false" fetch="select" lazy="false">
+                 <column name="opsUnitId" not-null="true" />
+     </many-to-one> 
+
+	</class>
+
+</hibernate-mapping>
+

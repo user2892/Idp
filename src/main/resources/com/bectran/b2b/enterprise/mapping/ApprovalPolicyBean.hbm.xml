@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+	<class name="com.bectran.b2b.enterprise.beans.ApprovalPolicyBean" table="zs_approval_policy">
+
+		<id name="supplierId" type="long" column="supplierId">
+			<generator class="assigned" />
+		</id>		
+		  
+	<property name="numOfficer" type="integer" column="numOfficer" />			
+	<property name="numOfficerToNotify" type="integer" column="numOfficerToNotify" />			
+	<property name="lastUpdate" type="timestamp" column="lastUpdate" />			
+
+        <set name="approvalLevelSet" inverse="true" lazy="false"  cascade="all" >
+            <key>
+                 <column name="headerId"  not-null="true" />
+            </key>
+             <one-to-many class="com.bectran.b2b.enterprise.beans.ApprovalLevelBean"/>
+        </set>   
+
+	</class>
+
+</hibernate-mapping>

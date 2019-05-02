@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+    <class name="com.bectran.b2b.customer.beans.CreditApplicantByRequestBean" table="c_credit_applicant_byrequest">
+  		
+    	<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>  
+		
+		<property name="userId" type="string" column="UserId" />
+		<property name="firstName" type="string" column="FName" />
+		<property name="lastName" type="string" column="LName" />
+		<property name="phone" type="string" column="PhoneNbr" />
+		<property name="email" type="string" column="EMail" />
+		
+		<property name="dateCreated" type="timestamp" column="DateCreated" />									
+		<property name="title" type="string" column="Title" />
+		<property name="department" type="string" column="Dept" />
+		<property name="salutation" type="string" column="Salutation" />
+		
+
+    </class>
+
+</hibernate-mapping>

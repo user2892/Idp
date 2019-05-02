@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer-data xmlns="http://www.bectran.com/">
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-02-04 </approvalDate>
+        <approvedLimit>70000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>560009</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ04</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-02-04 </approvalDate>
+        <approvedLimit>80000.0</approvedLimit>
+        <approvigOfficerName>James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>560009</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ03</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James  Coboun</analystName>
+        <approvalDate>2012-02-03 </approvalDate>
+        <approvedLimit>80000.0</approvedLimit>
+        <approvigOfficerName>James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300080</clientAccountId>
+        <creditTerm>Net 10</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ020</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-02-03 </approvalDate>
+        <approvedLimit>88888.0</approvedLimit>
+        <approvigOfficerName>James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300080</clientAccountId>
+        <creditTerm>Net 10</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ010</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-02-04 </approvalDate>
+        <approvedLimit>200000.0</approvedLimit>
+        <approvigOfficerName>James  Coboun / James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300080</clientAccountId>
+        <creditTerm>Net 10</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ019</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20120212853">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-03-22 </approvalDate>
+        <approvedLimit>33333.0</approvedLimit>
+        <approvigOfficerName>James  Coboun / James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20120212853</bectranCustomerId>
+        <clientAccountId>123443</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>kk@kk23.com</customerName>
+        <riskRating></riskRating>
+        <riskRatingClass></riskRatingClass>
+        <transactionId>REQ077</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-04-20 </approvalDate>
+        <approvedLimit>60000.0</approvedLimit>
+        <approvigOfficerName>James Cameron / James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ070</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20111012811">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-03-25 </approvalDate>
+        <approvedLimit>5055.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20111012811</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ076</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-03-30 </approvalDate>
+        <approvedLimit>70000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQ050</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20110912805">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-09-11 </approvalDate>
+        <approvedLimit>40000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20110912805</bectranCustomerId>
+        <clientAccountId>989899</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>test1</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ052</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-04-21 </approvalDate>
+        <approvedLimit>70000.0</approvedLimit>
+        <approvigOfficerName>James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>5% 10 Net 60</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ078</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-05-05 </approvalDate>
+        <approvedLimit>50000.0</approvedLimit>
+        <approvigOfficerName>James  Coboun</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQ086</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060912053">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-05-30 </approvalDate>
+        <approvedLimit>150000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060912053</bectranCustomerId>
+        <clientAccountId>300055</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Gold</customerName>
+        <riskRating>Sr4</riskRating>
+        <riskRatingClass>X4</riskRatingClass>
+        <transactionId>REV089</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20120512881">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-06-03 </approvalDate>
+        <approvedLimit>120000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20120512881</bectranCustomerId>
+        <clientAccountId>300070</clientAccountId>
+        <creditTerm>Net 10</creditTerm>
+        <customerName>Rubber &amp; Plastics</customerName>
+        <riskRating>Sr4</riskRating>
+        <riskRatingClass>X4</riskRatingClass>
+        <transactionId>REV094</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-06-26 </approvalDate>
+        <approvedLimit>20000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQ0104</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-06-26 </approvalDate>
+        <approvedLimit>90000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0103</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20120512881">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-06-26 </approvalDate>
+        <approvedLimit>200000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20120512881</bectranCustomerId>
+        <clientAccountId>300070</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Rubber &amp; Plastics</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0105</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-06-26 </approvalDate>
+        <approvedLimit>50000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>N/A</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr3</riskRating>
+        <riskRatingClass>X3</riskRatingClass>
+        <transactionId>REQ0102</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20120812908">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-10-13 </approvalDate>
+        <approvedLimit>180000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20120812908</bectranCustomerId>
+        <clientAccountId>300171</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>CATV Systems</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0127</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2012-10-03 </approvalDate>
+        <approvedLimit>900000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>1239039</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr4</riskRating>
+        <riskRatingClass>X4</riskRatingClass>
+        <transactionId>REQ0126</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060912053">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-09 </approvalDate>
+        <approvedLimit>250000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060912053</bectranCustomerId>
+        <clientAccountId>300055</clientAccountId>
+        <creditTerm>2% 10 Net 30</creditTerm>
+        <customerName>Gold</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0129</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-09 </approvalDate>
+        <approvedLimit>70000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr4</riskRating>
+        <riskRatingClass>X4</riskRatingClass>
+        <transactionId>REQ0124</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130113000">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-26 </approvalDate>
+        <approvedLimit>900000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130113000</bectranCustomerId>
+        <clientAccountId>8978898</clientAccountId>
+        <creditTerm>Net 15</creditTerm>
+        <customerName>ttyyt</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0147</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130112998">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-26 </approvalDate>
+        <approvedLimit>34.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130112998</bectranCustomerId>
+        <clientAccountId>0808089</clientAccountId>
+        <creditTerm>Net 15</creditTerm>
+        <customerName>d</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0146</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20121012983">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-27 </approvalDate>
+        <approvedLimit>50000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20121012983</bectranCustomerId>
+        <clientAccountId>9595959</clientAccountId>
+        <creditTerm>Net 15</creditTerm>
+        <customerName>BAM BAM</customerName>
+        <riskRating>Mr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQP0139</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130112989">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-01-27 </approvalDate>
+        <approvedLimit>60000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130112989</bectranCustomerId>
+        <clientAccountId>300057</clientAccountId>
+        <creditTerm>Net 15</creditTerm>
+        <customerName>Nonmetallic Mineral Mining</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0144</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-07 </approvalDate>
+        <approvedLimit>999999.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 15</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0108</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-11 </approvalDate>
+        <approvedLimit>9000000.0</approvedLimit>
+        <approvigOfficerName>ken lay</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0159</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130313025">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-11 </approvalDate>
+        <approvedLimit>56.0</approvedLimit>
+        <approvigOfficerName>Jeff Connor</approvigOfficerName>
+        <bectranCustomerId>TN20130313025</bectranCustomerId>
+        <clientAccountId>I399E0920</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>abc</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0158</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-11 </approvalDate>
+        <approvedLimit>900000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0153</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-11 </approvalDate>
+        <approvedLimit>100000.0</approvedLimit>
+        <approvigOfficerName>Hanko Hanko</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0156</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-03-24 </approvalDate>
+        <approvedLimit>900000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr3</riskRating>
+        <riskRatingClass>X3</riskRatingClass>
+        <transactionId>REQ0165</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-20 </approvalDate>
+        <approvedLimit>44444.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0190</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130413067">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>10000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130413067</bectranCustomerId>
+        <clientAccountId>56577</clientAccountId>
+        <creditTerm>CWO</creditTerm>
+        <customerName>anakantos</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0189</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130413067">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>5555.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130413067</bectranCustomerId>
+        <clientAccountId>56577</clientAccountId>
+        <creditTerm>CWO</creditTerm>
+        <customerName>anakantos</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0188</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20111012811">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>90000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20111012811</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0187</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>33333.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0173</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>90000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0107</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130413077">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-21 </approvalDate>
+        <approvedLimit>121211.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130413077</bectranCustomerId>
+        <clientAccountId>3443443</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>B-NAME</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0191</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130413084">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-04-30 </approvalDate>
+        <approvedLimit>45000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130413084</bectranCustomerId>
+        <clientAccountId>34500</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>reer</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0196</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20121012954">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-05-10 </approvalDate>
+        <approvedLimit>150000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20121012954</bectranCustomerId>
+        <clientAccountId>300079</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Auto Parts</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0131</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130513089">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-05-11 </approvalDate>
+        <approvedLimit>45666.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130513089</bectranCustomerId>
+        <clientAccountId>1212121</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>WEW</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0199</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-05-20 </approvalDate>
+        <approvedLimit>2.0E7</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr4</riskRating>
+        <riskRatingClass>X4</riskRatingClass>
+        <transactionId>REQ0195</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-05-20 </approvalDate>
+        <approvedLimit>5.6E7</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0185</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-05-24 </approvalDate>
+        <approvedLimit>900000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 45</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>r1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0167</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130513092">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-06-01 </approvalDate>
+        <approvedLimit>200000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130513092</bectranCustomerId>
+        <clientAccountId>300188</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>Jewelry Stores</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0202</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-06-01 </approvalDate>
+        <approvedLimit>98000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0207</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20121212986">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-06-03 </approvalDate>
+        <approvedLimit>50000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20121212986</bectranCustomerId>
+        <clientAccountId>097809809</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>1 GATEWAY PLAZA, INC</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0143</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-06-03 </approvalDate>
+        <approvedLimit>80000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 60</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0192</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>10000.0</approvedLimit>
+        <approvigOfficerName>ken lay</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0209</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130513097">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>6000.0</approvedLimit>
+        <approvigOfficerName>ken lay</approvigOfficerName>
+        <bectranCustomerId>TN20130513097</bectranCustomerId>
+        <clientAccountId>343434</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Ln Company </customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0210</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-06-26 </approvalDate>
+        <approvedLimit>789.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQ0219</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>40000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0218</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-09 </approvalDate>
+        <approvedLimit>80000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ081</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-11 </approvalDate>
+        <approvedLimit>888.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0233</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-11 </approvalDate>
+        <approvedLimit>9999.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0232</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>ken lay</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>87.0</approvedLimit>
+        <approvigOfficerName>ken lay</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0243</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-28 </approvalDate>
+        <approvedLimit>777.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0234</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130713138">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-28 </approvalDate>
+        <approvedLimit>4500.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130713138</bectranCustomerId>
+        <clientAccountId>3232323</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>d</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0258</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130713128">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-28 </approvalDate>
+        <approvedLimit>3400.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130713128</bectranCustomerId>
+        <clientAccountId>098098089</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>nunin</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0256</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130613101">
+        <analystName>Grant Grant</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>45000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130613101</bectranCustomerId>
+        <clientAccountId>12121212</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>HINASI</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQP0213</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130313028">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>40000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130313028</bectranCustomerId>
+        <clientAccountId>300099</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Foreign Regional Banks</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0160</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>90000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0230</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130613114">
+        <analystName>Grant Grant</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>200000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130613114</bectranCustomerId>
+        <clientAccountId>300075</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Office Supplies</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REV0229</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>Grant Grant</analystName>
+        <approvalDate>2013-07-30 </approvalDate>
+        <approvedLimit>8000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0227</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-08-03 </approvalDate>
+        <approvedLimit>4550.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Mr3</riskRating>
+        <riskRatingClass>X3</riskRatingClass>
+        <transactionId>REQ0268</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130813179">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-08-14 </approvalDate>
+        <approvedLimit>4500.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20130813179</bectranCustomerId>
+        <clientAccountId>808080</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>custom test</customerName>
+        <riskRating>Sr2</riskRating>
+        <riskRatingClass>X2</riskRatingClass>
+        <transactionId>REQP0271</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130913207">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-09-05 </approvalDate>
+        <approvedLimit>0.0</approvedLimit>
+        <approvigOfficerName></approvigOfficerName>
+        <bectranCustomerId>TN20130913207</bectranCustomerId>
+        <clientAccountId></clientAccountId>
+        <creditTerm>NONE</creditTerm>
+        <customerName>TEST COD</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0293</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20130913207">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-09-10 </approvalDate>
+        <approvedLimit>0.0</approvedLimit>
+        <approvigOfficerName></approvigOfficerName>
+        <bectranCustomerId>TN20130913207</bectranCustomerId>
+        <clientAccountId></clientAccountId>
+        <creditTerm>NONE</creditTerm>
+        <customerName>TEST COD</customerName>
+        <riskRating>Sr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ0294</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+    <customer account-id="TN20060910591">
+        <analystName>James Cameron</analystName>
+        <approvalDate>2013-09-11 </approvalDate>
+        <approvedLimit>8000.0</approvedLimit>
+        <approvigOfficerName>James Cameron</approvigOfficerName>
+        <bectranCustomerId>TN20060910591</bectranCustomerId>
+        <clientAccountId>300033</clientAccountId>
+        <creditTerm>Net 30</creditTerm>
+        <customerName>Intel Corp</customerName>
+        <riskRating>Lr1</riskRating>
+        <riskRatingClass>X1</riskRatingClass>
+        <transactionId>REQ080</transactionId>
+        <creditDecision>Approved</creditDecision>
+    </customer>
+</customer-data>

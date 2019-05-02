@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inbound-customer-data xmlns="http://www.bectran.com/">
+    <customer account-id="TN20140714431" transaction-id="5139">
+        <business-group-info>
+            <groupName>Ludus</groupName>
+            <internalGroupCode></internalGroupCode>
+            <bectranReferenceId>97</bectranReferenceId>
+        </business-group-info>
+        <basic-info>
+            <addressLineOne>suit 100</addressLineOne>
+            <addressLineTwo></addressLineTwo>
+            <annualSalesRange>UNKNOWN</annualSalesRange>
+            <bectranCustomerId>TN20140714431</bectranCustomerId>
+            <city>Lake Mary</city>
+            <contactPersonFirstName>3</contactPersonFirstName>
+            <contactPersonLastName>3</contactPersonLastName>
+            <contactPersonPhone>(333) 333-3333 x3333</contactPersonPhone>
+            <contactPersonTitle>CEO</contactPersonTitle>
+            <countryId>US</countryId>
+            <customerDbaName>Ludus</customerDbaName>
+            <customerLegalName>Ludus</customerLegalName>
+            <dateCreatedInBectran>2016-04-19</dateCreatedInBectran>
+            <dunsNumber></dunsNumber>
+            <fax></fax>
+            <federalTaxId></federalTaxId>
+            <numOfEmployee>100 - 250 employees</numOfEmployee>
+            <phone>(111) 111-1111 x11111</phone>
+            <state>FL</state>
+            <stateOfIncorporation>AL</stateOfIncorporation>
+            <styleOfBusiness>Sales</styleOfBusiness>
+            <typeOfBusiness>Corporation</typeOfBusiness>
+            <yearEstablished>1988</yearEstablished>
+            <zipCode>11211</zipCode>
+            <contactPersonEmail>shanmu.gutti@bectran.com</contactPersonEmail>
+        </basic-info>
+        <owner-officer-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>Shanmukeshwara Rao</firstName>
+                <lastName>Gutti</lastName>
+                <phone>919885300857</phone>
+                <persTitle>Shareholder</persTitle>
+            </entry>
+        </owner-officer-info>
+        <billing-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>Shanmukeshwara Rao</firstName>
+                <lastName>Gutti</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>shanmu.gutti@bectran.com</email>
+                <fax></fax>
+                <addressLineOne>suit 100</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>Lake Mary</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode>11211</zipCode>
+            </entry>
+        </billing-info>
+        <shipping-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>Shanmukeshwara Rao</firstName>
+                <lastName>Gutti</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>shanmu.gutti@bectran.com</email>
+                <fax></fax>
+                <addressLineOne>suit 100</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>Lake Mary</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode>11211</zipCode>
+            </entry>
+        </shipping-info>
+        <apay-info>
+            <entry>
+                <salutation></salutation>
+                <firstName>Shanmukeshwara Rao</firstName>
+                <lastName>Gutti</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>shanmu.gutti@bectran.com</email>
+                <fax></fax>
+            </entry>
+        </apay-info>
+        <credit-reference-info>
+            <entry>
+                <companyName>Addition Trade</companyName>
+                <addressLineOne>Addition Trade</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>Addition Trade</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>Addition Trade</firstName>
+                <lastName>Addition Trade</lastName>
+                <phone>(211) 111-1111 x11111</phone>
+                <email>shanmu.gutti@bectran.com</email>
+                <fax>(111)-111-1111</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER-LIMIT</status>
+            </entry>
+            <entry>
+                <companyName>test</companyName>
+                <addressLineOne>test</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>test</city>
+                <state>AL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>test</firstName>
+                <lastName>test</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>test@test.com</email>
+                <fax>(111)-111-1111</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER-LIMIT</status>
+            </entry>
+            <entry>
+                <companyName>New Bank</companyName>
+                <addressLineOne>New Bank</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>lake</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>New Bank</firstName>
+                <lastName>New</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>shanmu.gutti@bectran.com</email>
+                <fax>(222)-222-2222</fax>
+                <referenceType>BANK</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType>Checking</accountType>
+                <status>REMINDER-LIMIT</status>
+            </entry>
+            <entry>
+                <companyName>Trust bank</companyName>
+                <addressLineOne>42</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>Lake Mary</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>bill</firstName>
+                <lastName>bank</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>bill@bank.com</email>
+                <fax>(111)-111-1111</fax>
+                <referenceType>BANK</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType>Checking</accountType>
+                <status>REMINDER-LIMIT</status>
+            </entry>
+            <entry>
+                <companyName>Trust bank</companyName>
+                <addressLineOne>42</addressLineOne>
+                <addressLineTwo></addressLineTwo>
+                <city>Lake Mary</city>
+                <state>FL</state>
+                <countryId>US</countryId>
+                <zipCode></zipCode>
+                <firstName>Bill</firstName>
+                <lastName>Will</lastName>
+                <phone>(111) 111-1111 x11111</phone>
+                <email>bill@will.com</email>
+                <fax>(111)-111-1111</fax>
+                <referenceType>TRADE</referenceType>
+                <internalAcctNum></internalAcctNum>
+                <accountType></accountType>
+                <status>REMINDER-LIMIT</status>
+            </entry>
+        </credit-reference-info>
+    </customer>
+</inbound-customer-data>

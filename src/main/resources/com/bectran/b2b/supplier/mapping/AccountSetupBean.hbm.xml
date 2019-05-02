@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bectran.b2b.supplier.beans.AccountSetupBean" table="s_acct_setup">
+		<id name="id" type="long" column="id">
+			<generator class="assigned" />
+		</id>
+
+		<property name="companyInfoStatus" type="string" column="companyInfoStatus" />
+		<property name="logoStatus" type="string" column="logoStatus" />
+		<property name="termStatus" type="string" column="termStatus" />
+		<property name="adminPolicyStatus" type="string" column="adminPolicyStatus" />		
+
+	</class>
+
+</hibernate-mapping>

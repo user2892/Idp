@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bectran.b2b.customer.beans.RefContactBean" table="c_refcontact">
+     	<id name="id" type="long" column="SequenceNum">
+			<generator class="native" />
+		</id>
+
+        <property name="acctNum" type="string" column="AcctNum" />
+		<property name="firstName" type="string" column="FName" />
+		<property name="lastName" type="string" column="LName" />
+		<property name="phone" type="string" column="PhoneNbr" />
+		<property name="email" type="string" column="EMail" />
+		<property name="persTitle" type="string" column="Title" />
+		<property name="contactType" type="string" column="Type" />
+		<property name="fax" type="string" column="FaxNbr" />
+		<property name="lastUpdate" type="timestamp" column="LastUpdate" />	
+		<property name="name" type="string" column="Name" />
+		<property name="refId" type="long" column="RefId" />
+		<property name="referenceType" type="string" column="Reference_Type" />
+		
+		<property name="internalAcctNum" type="string" column="internalAcctNum" />
+		<property name="accountType" type="string" column="accountType" />
+		<property name="signatory" type="string" column="signatory" />					
+	
+    </class>
+
+</hibernate-mapping>
